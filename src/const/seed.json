@@ -1,0 +1,3242 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "73926cb9-7513-41ed-93c7-0e0c07148157",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 28408,
+        "color": "Red",
+        "mileage": 54658,
+        "created_at": "2023-09-13T21:25:01.351Z",
+        "updated_at": "2023-09-13T11:28:54.234Z"
+      },
+      {
+        "id": "570b99c3-8676-43f5-a0b6-d10bdc7d56cc",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 33652,
+        "color": "Blue",
+        "mileage": 1214,
+        "created_at": "2023-09-13T22:38:45.636Z",
+        "updated_at": "2023-09-14T03:41:54.306Z"
+      },
+      {
+        "id": "89ba2c46-9d7a-4aea-b1b8-f4078412b0d6",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 59141,
+        "color": "White",
+        "mileage": 10886,
+        "created_at": "2023-09-13T20:19:14.483Z",
+        "updated_at": "2023-09-14T03:28:28.754Z"
+      },
+      {
+        "id": "7ee7d372-f93f-457e-ba3a-e53c7ad8331d",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 76250,
+        "color": "Black",
+        "mileage": 85754,
+        "created_at": "2023-09-13T20:36:11.496Z",
+        "updated_at": "2023-09-13T14:45:13.939Z"
+      },
+      {
+        "id": "772696cb-1b35-4167-bbee-d0b164a7185a",
+        "make": "BMW",
+        "model": "X5",
+        "year": 63294,
+        "color": "Silver",
+        "mileage": 538,
+        "created_at": "2023-09-13T23:05:05.861Z",
+        "updated_at": "2023-09-14T03:57:01.662Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "6e68aee5-07d5-4c5e-867d-9d4412fe7a49",
+        "start_time": "2023-09-13T22:36:30.971Z",
+        "end_time": "2023-09-13T11:27:10.443Z",
+        "distance_travelled": 18359,
+        "created_at": "2023-09-14T04:10:18.882Z",
+        "updated_at": "2023-09-13T08:05:10.633Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "570b99c3-8676-43f5-a0b6-d10bdc7d56cc"
+      },
+      {
+        "id": "1b0e8fbe-64ec-4a69-b863-4acd49ba8ac3",
+        "start_time": "2023-09-14T01:51:22.812Z",
+        "end_time": "2023-09-13T15:58:38.538Z",
+        "distance_travelled": 15747,
+        "created_at": "2023-09-13T12:17:18.726Z",
+        "updated_at": "2023-09-13T13:56:26.034Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "570b99c3-8676-43f5-a0b6-d10bdc7d56cc"
+      },
+      {
+        "id": "6e3bbeab-8192-411a-8437-ce3d6120db01",
+        "start_time": "2023-09-14T05:55:18.050Z",
+        "end_time": "2023-09-13T16:10:49.835Z",
+        "distance_travelled": 92418,
+        "created_at": "2023-09-14T04:12:22.147Z",
+        "updated_at": "2023-09-13T08:23:33.198Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "73926cb9-7513-41ed-93c7-0e0c07148157"
+      },
+      {
+        "id": "cf4983d4-cea5-4acb-9616-30089b25c419",
+        "start_time": "2023-09-13T09:56:07.509Z",
+        "end_time": "2023-09-13T20:30:53.931Z",
+        "distance_travelled": 18407,
+        "created_at": "2023-09-14T05:06:08.893Z",
+        "updated_at": "2023-09-14T00:24:46.130Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7ee7d372-f93f-457e-ba3a-e53c7ad8331d"
+      },
+      {
+        "id": "e299cd31-08a8-4c0a-81db-9bdb685178cf",
+        "start_time": "2023-09-14T06:04:26.815Z",
+        "end_time": "2023-09-14T01:39:44.645Z",
+        "distance_travelled": 17897,
+        "created_at": "2023-09-13T11:45:39.728Z",
+        "updated_at": "2023-09-13T14:40:39.689Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7ee7d372-f93f-457e-ba3a-e53c7ad8331d"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "daf5db57-353e-4b47-a91a-43ac3a73d28c",
+        "start_time": "2023-09-14T00:00:03.137Z",
+        "end_time": "2023-09-14T06:10:47.856Z",
+        "created_at": "2023-09-13T07:29:49.313Z",
+        "updated_at": "2023-09-13T23:10:23.060Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "73926cb9-7513-41ed-93c7-0e0c07148157"
+      },
+      {
+        "id": "546c3ba0-1ce7-453e-b977-552110598807",
+        "start_time": "2023-09-13T14:42:18.540Z",
+        "end_time": "2023-09-13T21:48:46.575Z",
+        "created_at": "2023-09-13T10:05:35.896Z",
+        "updated_at": "2023-09-13T22:45:25.958Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "772696cb-1b35-4167-bbee-d0b164a7185a"
+      },
+      {
+        "id": "a9cd7392-1f38-48f0-bd15-3c950497b527",
+        "start_time": "2023-09-14T02:47:05.552Z",
+        "end_time": "2023-09-13T19:51:47.150Z",
+        "created_at": "2023-09-13T21:53:23.404Z",
+        "updated_at": "2023-09-14T02:05:17.776Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "89ba2c46-9d7a-4aea-b1b8-f4078412b0d6"
+      },
+      {
+        "id": "6267c9cd-2841-4b79-b775-ed306d883426",
+        "start_time": "2023-09-13T08:59:05.588Z",
+        "end_time": "2023-09-13T11:58:56.272Z",
+        "created_at": "2023-09-13T22:06:23.659Z",
+        "updated_at": "2023-09-13T15:48:34.438Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "73926cb9-7513-41ed-93c7-0e0c07148157"
+      },
+      {
+        "id": "b005f523-f55f-4ac1-a6e7-b2048756b657",
+        "start_time": "2023-09-14T04:08:51.295Z",
+        "end_time": "2023-09-13T20:35:46.189Z",
+        "created_at": "2023-09-13T19:40:26.344Z",
+        "updated_at": "2023-09-13T08:59:31.354Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "73926cb9-7513-41ed-93c7-0e0c07148157"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "0091a1f3-c04b-44ab-8078-da2cb3a2e8a8",
+        "average_usage": 51098,
+        "peak_usage": 75296,
+        "low_usage": 66773,
+        "total_reservations": 66676,
+        "created_at": "2023-09-13T08:30:37.317Z",
+        "updated_at": "2023-09-13T14:52:29.476Z",
+        "vehicle_id": "73926cb9-7513-41ed-93c7-0e0c07148157"
+      },
+      {
+        "id": "3ded45a4-6399-4db2-8cc6-33a78f047acb",
+        "average_usage": 42636,
+        "peak_usage": 48886,
+        "low_usage": 8646,
+        "total_reservations": 52986,
+        "created_at": "2023-09-14T04:27:53.295Z",
+        "updated_at": "2023-09-13T09:09:33.169Z",
+        "vehicle_id": "570b99c3-8676-43f5-a0b6-d10bdc7d56cc"
+      },
+      {
+        "id": "6f43cc55-6b03-4615-952e-04c036b6f5ac",
+        "average_usage": 28646,
+        "peak_usage": 34916,
+        "low_usage": 73561,
+        "total_reservations": 99422,
+        "created_at": "2023-09-14T03:33:29.403Z",
+        "updated_at": "2023-09-13T14:03:38.636Z",
+        "vehicle_id": "7ee7d372-f93f-457e-ba3a-e53c7ad8331d"
+      },
+      {
+        "id": "6beb3958-c447-4d2d-8836-c35d94283e59",
+        "average_usage": 43214,
+        "peak_usage": 48213,
+        "low_usage": 22063,
+        "total_reservations": 46151,
+        "created_at": "2023-09-14T01:11:34.035Z",
+        "updated_at": "2023-09-14T02:42:48.142Z",
+        "vehicle_id": "7ee7d372-f93f-457e-ba3a-e53c7ad8331d"
+      },
+      {
+        "id": "83da51b8-8b1d-4e8b-861e-e8a3cac45d67",
+        "average_usage": 7695,
+        "peak_usage": 35252,
+        "low_usage": 2225,
+        "total_reservations": 9315,
+        "created_at": "2023-09-13T19:01:59.740Z",
+        "updated_at": "2023-09-13T14:31:35.704Z",
+        "vehicle_id": "570b99c3-8676-43f5-a0b6-d10bdc7d56cc"
+      }
+    ],
+    "payment": [
+      {
+        "id": "d1e6a293-b5b6-4806-8450-97cde9ada15a",
+        "created_at": "2023-09-13T16:31:47.521Z",
+        "updated_at": "2023-09-14T04:48:09.893Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T14:52:10.800Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.5677087360527366,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Online Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "1234567890"
+      },
+      {
+        "id": "8f0d6f26-5fe7-47e6-915f-b1ebb928b27c",
+        "created_at": "2023-09-13T20:11:55.271Z",
+        "updated_at": "2023-09-13T13:04:43.934Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T09:09:24.367Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.42845849017612636,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "0987654321"
+      },
+      {
+        "id": "5a9d5ce0-4b2d-4395-a844-d9035fe6ece6",
+        "created_at": "2023-09-13T17:31:52.984Z",
+        "updated_at": "2023-09-13T14:55:29.250Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T11:56:34.279Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.0696730527561158,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "2468135790"
+      },
+      {
+        "id": "5760061b-2747-475c-b93e-065b0b9094a3",
+        "created_at": "2023-09-13T06:20:11.059Z",
+        "updated_at": "2023-09-13T20:44:08.002Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T11:40:15.364Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.8605834553018212,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "1357924680"
+      },
+      {
+        "id": "aee6205a-9274-49e6-9bc3-b2b3a6756a73",
+        "created_at": "2023-09-13T20:51:11.245Z",
+        "updated_at": "2023-09-13T10:12:05.098Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T06:39:25.255Z",
+        "payment_method": "Diners Club",
+        "payment_amount": 0.6236298761796206,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Membership Payment",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "9876543210"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d2184f0d-a20e-4a7f-ab67-86e9a1dd5672",
+        "email": "Camilla.Corkery56@yahoo.com",
+        "firstName": "Vladimir",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18665955",
+        "tenantId": null
+      },
+      {
+        "reference": "ab0c3ca5-ad42-4baa-80bf-3de8706e9a4e",
+        "email": "Eleonore_Witting@hotmail.com",
+        "firstName": "Emmanuelle",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/830.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de239f06-007c-4efa-a388-37d2da937fbf",
+        "email": "Manley94@hotmail.com",
+        "firstName": "Westley",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7782d0d9-9520-419f-b89a-5096be3d9fd7",
+        "email": "Christiana.Ankunding@hotmail.com",
+        "firstName": "Pierce",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "434e1355-e6ad-4a40-b970-bbe02fadd975",
+        "email": "Felix_Hane@yahoo.com",
+        "firstName": "Cecile",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/587.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "fd9903a5-7ed7-4d16-910a-74640f86e2ed",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 52064,
+        "color": "Red",
+        "mileage": 11617,
+        "created_at": "2023-09-13T14:58:39.640Z",
+        "updated_at": "2023-09-13T08:53:44.949Z"
+      },
+      {
+        "id": "03392715-7839-4296-b6f4-fac44f6c1b06",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 74613,
+        "color": "Blue",
+        "mileage": 41313,
+        "created_at": "2023-09-13T14:39:28.040Z",
+        "updated_at": "2023-09-14T04:42:57.313Z"
+      },
+      {
+        "id": "72c44a5d-50b6-46b0-970c-2ae290cfe152",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 33833,
+        "color": "Black",
+        "mileage": 21934,
+        "created_at": "2023-09-14T05:45:55.069Z",
+        "updated_at": "2023-09-14T06:03:50.575Z"
+      },
+      {
+        "id": "44f70550-f375-4ac5-90e0-2362b9713abb",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 42237,
+        "color": "White",
+        "mileage": 375,
+        "created_at": "2023-09-13T15:55:05.698Z",
+        "updated_at": "2023-09-14T00:07:32.880Z"
+      },
+      {
+        "id": "baf702fb-467f-4afc-a565-480b3b342aed",
+        "make": "BMW",
+        "model": "X5",
+        "year": 24872,
+        "color": "Silver",
+        "mileage": 61561,
+        "created_at": "2023-09-13T08:55:01.862Z",
+        "updated_at": "2023-09-13T22:56:31.102Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "357a37dc-3b02-4e57-8880-ced2738282b0",
+        "start_time": "2023-09-13T10:45:20.314Z",
+        "end_time": "2023-09-13T14:03:25.977Z",
+        "distance_travelled": 77813,
+        "created_at": "2023-09-13T11:58:41.474Z",
+        "updated_at": "2023-09-13T18:28:11.491Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      },
+      {
+        "id": "39b96144-362c-44e0-871f-844170a3eebf",
+        "start_time": "2023-09-13T13:43:15.674Z",
+        "end_time": "2023-09-13T06:47:40.922Z",
+        "distance_travelled": 99130,
+        "created_at": "2023-09-13T06:53:43.401Z",
+        "updated_at": "2023-09-14T00:40:33.466Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "72c44a5d-50b6-46b0-970c-2ae290cfe152"
+      },
+      {
+        "id": "bb29b455-885c-4316-a099-fd8884747f21",
+        "start_time": "2023-09-14T03:10:17.006Z",
+        "end_time": "2023-09-13T12:45:43.663Z",
+        "distance_travelled": 21023,
+        "created_at": "2023-09-13T18:44:18.839Z",
+        "updated_at": "2023-09-13T21:46:08.385Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      },
+      {
+        "id": "37f86f96-d80f-4af0-bf6a-ae19788f3e65",
+        "start_time": "2023-09-13T08:35:45.296Z",
+        "end_time": "2023-09-13T20:08:18.236Z",
+        "distance_travelled": 38434,
+        "created_at": "2023-09-13T22:12:32.765Z",
+        "updated_at": "2023-09-14T00:42:50.828Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "03392715-7839-4296-b6f4-fac44f6c1b06"
+      },
+      {
+        "id": "4ed36211-618e-4b4b-9642-10dcfed92bf0",
+        "start_time": "2023-09-14T05:27:28.117Z",
+        "end_time": "2023-09-13T09:26:34.973Z",
+        "distance_travelled": 44142,
+        "created_at": "2023-09-14T06:02:47.123Z",
+        "updated_at": "2023-09-14T04:16:02.415Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "baf702fb-467f-4afc-a565-480b3b342aed"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "2b307087-23a6-434b-8252-d8259ae6d45e",
+        "start_time": "2023-09-14T06:12:56.112Z",
+        "end_time": "2023-09-13T20:34:27.319Z",
+        "created_at": "2023-09-14T05:27:52.151Z",
+        "updated_at": "2023-09-13T18:09:22.657Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      },
+      {
+        "id": "22703a90-1957-4138-81e1-00807250802c",
+        "start_time": "2023-09-13T19:05:53.743Z",
+        "end_time": "2023-09-13T23:38:25.036Z",
+        "created_at": "2023-09-13T08:47:35.687Z",
+        "updated_at": "2023-09-14T02:46:39.341Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      },
+      {
+        "id": "35b92b48-e264-45d6-8db7-ad99d96d5454",
+        "start_time": "2023-09-13T09:38:59.430Z",
+        "end_time": "2023-09-13T14:29:46.453Z",
+        "created_at": "2023-09-13T12:31:34.191Z",
+        "updated_at": "2023-09-13T22:24:26.749Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "baf702fb-467f-4afc-a565-480b3b342aed"
+      },
+      {
+        "id": "6f4cf2aa-ac0b-447a-ba1d-3722b90010b6",
+        "start_time": "2023-09-13T19:13:53.041Z",
+        "end_time": "2023-09-13T17:20:38.697Z",
+        "created_at": "2023-09-13T08:09:55.951Z",
+        "updated_at": "2023-09-13T12:02:30.485Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "03392715-7839-4296-b6f4-fac44f6c1b06"
+      },
+      {
+        "id": "d90b35bc-7068-4727-8dbb-df33531fe707",
+        "start_time": "2023-09-13T20:03:27.483Z",
+        "end_time": "2023-09-14T04:27:20.492Z",
+        "created_at": "2023-09-14T04:17:15.521Z",
+        "updated_at": "2023-09-13T14:40:33.972Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "baf702fb-467f-4afc-a565-480b3b342aed"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "40b4aef3-4943-4128-a116-ba205b52b2ee",
+        "average_usage": 69397,
+        "peak_usage": 52408,
+        "low_usage": 5772,
+        "total_reservations": 39829,
+        "created_at": "2023-09-14T02:11:46.171Z",
+        "updated_at": "2023-09-14T04:31:33.087Z",
+        "vehicle_id": "baf702fb-467f-4afc-a565-480b3b342aed"
+      },
+      {
+        "id": "84771cc3-87a7-47a7-a65e-f8370b077994",
+        "average_usage": 68899,
+        "peak_usage": 50943,
+        "low_usage": 42952,
+        "total_reservations": 60257,
+        "created_at": "2023-09-13T08:55:53.120Z",
+        "updated_at": "2023-09-14T00:09:34.240Z",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      },
+      {
+        "id": "f7f7cd19-4551-40c9-8323-96bf07b20f53",
+        "average_usage": 97938,
+        "peak_usage": 32444,
+        "low_usage": 66431,
+        "total_reservations": 87088,
+        "created_at": "2023-09-13T23:45:17.132Z",
+        "updated_at": "2023-09-13T06:51:51.248Z",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      },
+      {
+        "id": "459621da-d7dc-44a2-ae60-5dcb0abb28c5",
+        "average_usage": 79170,
+        "peak_usage": 76612,
+        "low_usage": 27253,
+        "total_reservations": 30915,
+        "created_at": "2023-09-13T21:37:12.910Z",
+        "updated_at": "2023-09-13T20:07:43.317Z",
+        "vehicle_id": "72c44a5d-50b6-46b0-970c-2ae290cfe152"
+      },
+      {
+        "id": "9b754026-ea09-4381-bf4e-b08ba1b7fcc9",
+        "average_usage": 93739,
+        "peak_usage": 34396,
+        "low_usage": 65714,
+        "total_reservations": 23154,
+        "created_at": "2023-09-14T05:30:37.303Z",
+        "updated_at": "2023-09-13T11:25:38.668Z",
+        "vehicle_id": "44f70550-f375-4ac5-90e0-2362b9713abb"
+      }
+    ],
+    "payment": [
+      {
+        "id": "218a923a-960d-4414-8001-eb149f25b5e0",
+        "created_at": "2023-09-13T07:59:33.221Z",
+        "updated_at": "2023-09-13T22:28:03.064Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-14T00:55:18.813Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.6991649945266545,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Online Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "123456789"
+      },
+      {
+        "id": "87083bce-9bdb-4e5d-8781-48610fb98e0b",
+        "created_at": "2023-09-13T06:33:08.963Z",
+        "updated_at": "2023-09-14T06:01:57.298Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T07:42:35.396Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.7939263915177435,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "987654321"
+      },
+      {
+        "id": "a3f87b66-49bf-47be-ad5b-f051dd17adc9",
+        "created_at": "2023-09-14T00:38:43.213Z",
+        "updated_at": "2023-09-14T04:47:41.956Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T11:31:33.271Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.23147306265309453,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "456789123"
+      },
+      {
+        "id": "e5dfa997-097f-45bf-870b-080c0b5ad0f0",
+        "created_at": "2023-09-13T18:54:33.698Z",
+        "updated_at": "2023-09-13T20:18:17.418Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T08:45:18.678Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.3773367255926132,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "321654987"
+      },
+      {
+        "id": "db5f8635-1187-4a63-b261-f856cda36710",
+        "created_at": "2023-09-13T21:28:22.806Z",
+        "updated_at": "2023-09-13T06:15:55.842Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-14T00:27:52.195Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.02880902448669076,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Membership Dues",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "789123456"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8219c511-aecd-4c5a-9bcd-e6efc8d32500",
+        "email": "Bartholome57@yahoo.com",
+        "firstName": "Hilton",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "584f1120-f0e1-4f23-88a0-9c7d7d43049b",
+        "email": "Clint63@hotmail.com",
+        "firstName": "Edd",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/980.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e628a1dd-3e10-4635-aa25-4cbc54836115",
+        "email": "Nakia_Thompson@hotmail.com",
+        "firstName": "Alayna",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20205111",
+        "tenantId": null
+      },
+      {
+        "reference": "e17e24b1-41e8-4aeb-a059-e1ce34c71bb8",
+        "email": "Freeman4@gmail.com",
+        "firstName": "Cora",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/422.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bd64a8f6-081c-4789-86a6-ad1ad451c7e8",
+        "email": "Micah_Barton@gmail.com",
+        "firstName": "Kaela",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31483754",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "b1f7dd42-20b9-47a5-bd1e-b762618d24ee",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 16064,
+        "color": "Red",
+        "mileage": 92998,
+        "created_at": "2023-09-13T14:28:45.223Z",
+        "updated_at": "2023-09-14T02:05:18.509Z"
+      },
+      {
+        "id": "5e51c3f4-c7c4-40ba-8244-d1ae33011410",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 54196,
+        "color": "Blue",
+        "mileage": 55346,
+        "created_at": "2023-09-13T12:05:53.217Z",
+        "updated_at": "2023-09-14T04:23:05.296Z"
+      },
+      {
+        "id": "0b97e82b-8776-4e9c-8563-8516fdbc45e1",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 130,
+        "color": "Black",
+        "mileage": 65245,
+        "created_at": "2023-09-13T12:35:24.776Z",
+        "updated_at": "2023-09-13T14:13:59.782Z"
+      },
+      {
+        "id": "879a78bf-a8b1-4f21-b9a9-91849c72331c",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 25524,
+        "color": "White",
+        "mileage": 42745,
+        "created_at": "2023-09-14T04:09:06.274Z",
+        "updated_at": "2023-09-13T21:51:08.547Z"
+      },
+      {
+        "id": "acd610e0-a1dd-4fc4-b580-957b8e022d1b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 34999,
+        "color": "Silver",
+        "mileage": 96946,
+        "created_at": "2023-09-14T05:25:11.720Z",
+        "updated_at": "2023-09-13T17:32:03.670Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "8ff72ec5-4021-4930-a648-68ddd484ab50",
+        "start_time": "2023-09-13T12:51:48.650Z",
+        "end_time": "2023-09-13T10:28:19.365Z",
+        "distance_travelled": 33340,
+        "created_at": "2023-09-13T22:26:13.430Z",
+        "updated_at": "2023-09-13T23:41:26.585Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b1f7dd42-20b9-47a5-bd1e-b762618d24ee"
+      },
+      {
+        "id": "cd906215-8ac7-440c-9cb0-1904ef140e21",
+        "start_time": "2023-09-13T15:02:28.270Z",
+        "end_time": "2023-09-13T23:48:23.111Z",
+        "distance_travelled": 93945,
+        "created_at": "2023-09-13T19:21:26.115Z",
+        "updated_at": "2023-09-13T13:10:14.261Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5e51c3f4-c7c4-40ba-8244-d1ae33011410"
+      },
+      {
+        "id": "ed3deab8-6938-4bed-bf24-27abfb608092",
+        "start_time": "2023-09-13T08:04:42.898Z",
+        "end_time": "2023-09-13T07:20:46.363Z",
+        "distance_travelled": 99697,
+        "created_at": "2023-09-13T12:47:36.814Z",
+        "updated_at": "2023-09-13T06:37:55.385Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0b97e82b-8776-4e9c-8563-8516fdbc45e1"
+      },
+      {
+        "id": "17f59df0-75de-4faf-b12f-dc101015148e",
+        "start_time": "2023-09-13T09:05:50.901Z",
+        "end_time": "2023-09-14T06:07:47.992Z",
+        "distance_travelled": 76419,
+        "created_at": "2023-09-13T09:43:17.878Z",
+        "updated_at": "2023-09-13T12:35:18.427Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "879a78bf-a8b1-4f21-b9a9-91849c72331c"
+      },
+      {
+        "id": "bef3f5c5-585a-4a6c-a839-6846fda629cb",
+        "start_time": "2023-09-14T03:27:39.022Z",
+        "end_time": "2023-09-13T21:30:42.665Z",
+        "distance_travelled": 65410,
+        "created_at": "2023-09-14T02:32:04.945Z",
+        "updated_at": "2023-09-13T08:59:08.033Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0b97e82b-8776-4e9c-8563-8516fdbc45e1"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "37c33cdc-e54f-4d64-8401-58fe8551c17d",
+        "start_time": "2023-09-13T06:55:58.790Z",
+        "end_time": "2023-09-14T03:22:42.895Z",
+        "created_at": "2023-09-13T10:06:41.030Z",
+        "updated_at": "2023-09-14T03:28:52.687Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b1f7dd42-20b9-47a5-bd1e-b762618d24ee"
+      },
+      {
+        "id": "314198b8-195a-4b1a-9b69-4d9d1260d16a",
+        "start_time": "2023-09-13T11:46:01.583Z",
+        "end_time": "2023-09-13T07:05:38.809Z",
+        "created_at": "2023-09-13T11:56:14.248Z",
+        "updated_at": "2023-09-13T11:25:55.759Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5e51c3f4-c7c4-40ba-8244-d1ae33011410"
+      },
+      {
+        "id": "9fc778ab-f522-45e9-871f-2719c2687673",
+        "start_time": "2023-09-13T06:48:20.131Z",
+        "end_time": "2023-09-13T13:00:48.608Z",
+        "created_at": "2023-09-14T03:10:15.758Z",
+        "updated_at": "2023-09-13T07:30:08.391Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "acd610e0-a1dd-4fc4-b580-957b8e022d1b"
+      },
+      {
+        "id": "b233a9cc-4cad-449b-811b-a3f707a0e721",
+        "start_time": "2023-09-13T18:03:00.970Z",
+        "end_time": "2023-09-13T12:18:10.580Z",
+        "created_at": "2023-09-13T18:52:01.912Z",
+        "updated_at": "2023-09-14T05:42:06.020Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0b97e82b-8776-4e9c-8563-8516fdbc45e1"
+      },
+      {
+        "id": "1c7b06ae-3fe5-41e0-9f69-6e58f2d356c9",
+        "start_time": "2023-09-13T20:36:24.287Z",
+        "end_time": "2023-09-13T17:43:31.036Z",
+        "created_at": "2023-09-13T12:28:09.009Z",
+        "updated_at": "2023-09-13T11:09:04.737Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "879a78bf-a8b1-4f21-b9a9-91849c72331c"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "ff3729c5-4993-49f2-a8b6-22ccd746f477",
+        "average_usage": 73336,
+        "peak_usage": 70173,
+        "low_usage": 26884,
+        "total_reservations": 18371,
+        "created_at": "2023-09-13T15:13:56.739Z",
+        "updated_at": "2023-09-13T11:20:32.106Z",
+        "vehicle_id": "5e51c3f4-c7c4-40ba-8244-d1ae33011410"
+      },
+      {
+        "id": "eac8d7ed-8880-409c-891c-6d4b4353a2e0",
+        "average_usage": 64634,
+        "peak_usage": 34585,
+        "low_usage": 7076,
+        "total_reservations": 9548,
+        "created_at": "2023-09-13T20:25:57.505Z",
+        "updated_at": "2023-09-14T01:56:59.957Z",
+        "vehicle_id": "b1f7dd42-20b9-47a5-bd1e-b762618d24ee"
+      },
+      {
+        "id": "ac541c5e-cff8-4c94-824c-61dafe340bc3",
+        "average_usage": 21297,
+        "peak_usage": 14986,
+        "low_usage": 99544,
+        "total_reservations": 17640,
+        "created_at": "2023-09-13T23:39:34.009Z",
+        "updated_at": "2023-09-13T16:56:29.731Z",
+        "vehicle_id": "0b97e82b-8776-4e9c-8563-8516fdbc45e1"
+      },
+      {
+        "id": "4fb42acb-3bf5-4ffb-be55-58e0c3b08a3b",
+        "average_usage": 20147,
+        "peak_usage": 41880,
+        "low_usage": 95421,
+        "total_reservations": 28280,
+        "created_at": "2023-09-13T23:09:12.445Z",
+        "updated_at": "2023-09-13T11:22:48.948Z",
+        "vehicle_id": "b1f7dd42-20b9-47a5-bd1e-b762618d24ee"
+      },
+      {
+        "id": "2ecd7ff1-ca43-4a71-a471-d24263663781",
+        "average_usage": 82148,
+        "peak_usage": 51712,
+        "low_usage": 15544,
+        "total_reservations": 69032,
+        "created_at": "2023-09-13T21:59:38.687Z",
+        "updated_at": "2023-09-13T15:40:30.484Z",
+        "vehicle_id": "0b97e82b-8776-4e9c-8563-8516fdbc45e1"
+      }
+    ],
+    "payment": [
+      {
+        "id": "473d97db-49dc-4734-b183-49f0eb402446",
+        "created_at": "2023-09-13T21:07:17.916Z",
+        "updated_at": "2023-09-13T22:25:15.083Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T22:22:21.202Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.188519106246531,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Product Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "123456789"
+      },
+      {
+        "id": "56fa480f-0384-4f8e-bc49-cb1a66db97cc",
+        "created_at": "2023-09-13T15:53:08.256Z",
+        "updated_at": "2023-09-13T09:58:25.588Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-14T00:45:29.939Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.5913032609969378,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "987654321"
+      },
+      {
+        "id": "af835b72-60b7-4c06-af06-6443c59b48dd",
+        "created_at": "2023-09-14T05:20:20.521Z",
+        "updated_at": "2023-09-13T18:22:19.457Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T23:46:16.629Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.7057213364169002,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "456789123"
+      },
+      {
+        "id": "9b7d8421-0adb-4697-b5b4-390a9b3c69f5",
+        "created_at": "2023-09-13T21:58:17.204Z",
+        "updated_at": "2023-09-13T09:35:10.909Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T22:36:52.702Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.4035002114251256,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "321654987"
+      },
+      {
+        "id": "327f37a8-d081-4116-88ca-06099e337446",
+        "created_at": "2023-09-13T10:19:06.189Z",
+        "updated_at": "2023-09-13T22:24:54.925Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T13:48:10.906Z",
+        "payment_method": "Diners Club",
+        "payment_amount": 0.1986426415387541,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Event Registration",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "789123456"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e7b2f1d-2e2a-408e-a00d-e12cc0858ed1",
+        "email": "Timmy7@yahoo.com",
+        "firstName": "Sarina",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/63.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69fa9977-8338-4da4-bb58-fd8a439aab99",
+        "email": "Davon_Sauer-Raynor@gmail.com",
+        "firstName": "Yolanda",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3db71ba-2ac7-4930-b032-5e01b4e25ad2",
+        "email": "Rozella.OKeefe57@gmail.com",
+        "firstName": "Bartholome",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21812234",
+        "tenantId": null
+      },
+      {
+        "reference": "d88e7d7b-1b44-404b-bcd1-cf1191076afc",
+        "email": "Fritz_Hoeger30@yahoo.com",
+        "firstName": "Garry",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/465.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba4c72de-5d44-4a5d-974e-f9bb97ac21fa",
+        "email": "Stan.Goyette13@gmail.com",
+        "firstName": "Manley",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/796.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "b3db0162-e4cf-4c76-99d7-dc5c9a67159c",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 46800,
+        "color": "Red",
+        "mileage": 25799,
+        "created_at": "2023-09-13T07:25:08.140Z",
+        "updated_at": "2023-09-14T05:45:52.253Z"
+      },
+      {
+        "id": "b367ae64-e124-4d89-acc9-2877e841307d",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 60954,
+        "color": "Blue",
+        "mileage": 98535,
+        "created_at": "2023-09-13T08:32:02.719Z",
+        "updated_at": "2023-09-13T23:10:57.133Z"
+      },
+      {
+        "id": "baed7555-438a-4905-baaf-de1bfe7981f7",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 87463,
+        "color": "Black",
+        "mileage": 84785,
+        "created_at": "2023-09-13T23:36:45.733Z",
+        "updated_at": "2023-09-13T08:20:05.305Z"
+      },
+      {
+        "id": "5bf1fde8-7b86-4eba-81b1-fe60267d6566",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 17757,
+        "color": "White",
+        "mileage": 81999,
+        "created_at": "2023-09-13T18:52:18.786Z",
+        "updated_at": "2023-09-13T16:45:41.716Z"
+      },
+      {
+        "id": "bb727eb8-102a-4636-84fb-65531bf6a516",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 23137,
+        "color": "Silver",
+        "mileage": 50175,
+        "created_at": "2023-09-13T09:31:50.086Z",
+        "updated_at": "2023-09-13T19:59:38.453Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "c1ca26a5-0fd9-4260-9670-4f777d282289",
+        "start_time": "2023-09-13T11:09:43.372Z",
+        "end_time": "2023-09-14T02:01:07.552Z",
+        "distance_travelled": 88522,
+        "created_at": "2023-09-14T05:15:53.538Z",
+        "updated_at": "2023-09-14T05:03:43.053Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b3db0162-e4cf-4c76-99d7-dc5c9a67159c"
+      },
+      {
+        "id": "98c07026-9e97-4f84-ba09-f1f14f355b9d",
+        "start_time": "2023-09-13T15:12:28.147Z",
+        "end_time": "2023-09-14T02:28:43.746Z",
+        "distance_travelled": 94813,
+        "created_at": "2023-09-14T00:51:15.824Z",
+        "updated_at": "2023-09-13T08:44:58.858Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b367ae64-e124-4d89-acc9-2877e841307d"
+      },
+      {
+        "id": "628b59cc-8472-4a03-b9c1-0cc435f1c594",
+        "start_time": "2023-09-14T04:34:30.091Z",
+        "end_time": "2023-09-13T20:29:41.958Z",
+        "distance_travelled": 45277,
+        "created_at": "2023-09-13T20:48:43.221Z",
+        "updated_at": "2023-09-14T02:49:25.638Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bb727eb8-102a-4636-84fb-65531bf6a516"
+      },
+      {
+        "id": "98d588e3-8dfc-4b62-9dde-447177b20489",
+        "start_time": "2023-09-13T18:53:15.967Z",
+        "end_time": "2023-09-14T03:30:04.512Z",
+        "distance_travelled": 8968,
+        "created_at": "2023-09-14T03:30:42.810Z",
+        "updated_at": "2023-09-13T17:21:17.254Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5bf1fde8-7b86-4eba-81b1-fe60267d6566"
+      },
+      {
+        "id": "9c4a70f8-845a-4c35-b082-3f5cebc21291",
+        "start_time": "2023-09-13T12:11:20.864Z",
+        "end_time": "2023-09-14T01:11:02.613Z",
+        "distance_travelled": 56823,
+        "created_at": "2023-09-13T09:45:32.662Z",
+        "updated_at": "2023-09-13T15:00:04.172Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "baed7555-438a-4905-baaf-de1bfe7981f7"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "f52b0ac6-8860-4f7a-b344-7f2dfdd50d10",
+        "start_time": "2023-09-13T13:01:12.924Z",
+        "end_time": "2023-09-13T17:55:19.872Z",
+        "created_at": "2023-09-13T07:06:10.798Z",
+        "updated_at": "2023-09-13T10:35:54.887Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5bf1fde8-7b86-4eba-81b1-fe60267d6566"
+      },
+      {
+        "id": "8a592707-1626-46b4-ae7d-18acc12aee77",
+        "start_time": "2023-09-13T19:36:59.540Z",
+        "end_time": "2023-09-13T19:19:37.148Z",
+        "created_at": "2023-09-13T21:35:58.359Z",
+        "updated_at": "2023-09-14T05:33:00.506Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b3db0162-e4cf-4c76-99d7-dc5c9a67159c"
+      },
+      {
+        "id": "1e589c88-ae0e-4739-a1e6-ee1c882938f7",
+        "start_time": "2023-09-14T05:19:35.851Z",
+        "end_time": "2023-09-13T21:28:10.059Z",
+        "created_at": "2023-09-14T03:43:32.400Z",
+        "updated_at": "2023-09-13T20:18:22.238Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b3db0162-e4cf-4c76-99d7-dc5c9a67159c"
+      },
+      {
+        "id": "789a15da-74e9-4c00-8fb8-4253f740b79a",
+        "start_time": "2023-09-13T20:54:04.284Z",
+        "end_time": "2023-09-14T04:07:29.403Z",
+        "created_at": "2023-09-14T01:22:34.572Z",
+        "updated_at": "2023-09-13T12:59:18.803Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bb727eb8-102a-4636-84fb-65531bf6a516"
+      },
+      {
+        "id": "18c1844d-b6d6-4f79-b3f7-b7a2553640da",
+        "start_time": "2023-09-13T23:51:01.836Z",
+        "end_time": "2023-09-13T10:20:38.591Z",
+        "created_at": "2023-09-14T00:51:48.728Z",
+        "updated_at": "2023-09-14T00:42:14.698Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bb727eb8-102a-4636-84fb-65531bf6a516"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "bcbdfae3-818c-4e9a-9fa2-01106694d4b8",
+        "average_usage": 9522,
+        "peak_usage": 92930,
+        "low_usage": 40764,
+        "total_reservations": 56174,
+        "created_at": "2023-09-13T20:49:01.290Z",
+        "updated_at": "2023-09-14T02:32:48.715Z",
+        "vehicle_id": "b367ae64-e124-4d89-acc9-2877e841307d"
+      },
+      {
+        "id": "0eccaa0a-f4e3-463a-959d-483cdab5e7d2",
+        "average_usage": 36359,
+        "peak_usage": 14677,
+        "low_usage": 55495,
+        "total_reservations": 41107,
+        "created_at": "2023-09-13T21:10:24.043Z",
+        "updated_at": "2023-09-14T06:08:15.703Z",
+        "vehicle_id": "b3db0162-e4cf-4c76-99d7-dc5c9a67159c"
+      },
+      {
+        "id": "44482b34-8ebf-4a81-a16b-f7f878643f1e",
+        "average_usage": 64696,
+        "peak_usage": 24893,
+        "low_usage": 79584,
+        "total_reservations": 64594,
+        "created_at": "2023-09-13T21:38:28.946Z",
+        "updated_at": "2023-09-13T11:53:08.050Z",
+        "vehicle_id": "b367ae64-e124-4d89-acc9-2877e841307d"
+      },
+      {
+        "id": "15790ea9-4906-4c4e-8edf-49c7cf044f73",
+        "average_usage": 26778,
+        "peak_usage": 86936,
+        "low_usage": 35792,
+        "total_reservations": 26638,
+        "created_at": "2023-09-13T07:24:12.304Z",
+        "updated_at": "2023-09-13T06:25:33.561Z",
+        "vehicle_id": "b367ae64-e124-4d89-acc9-2877e841307d"
+      },
+      {
+        "id": "02b7831c-2a71-481b-a1ba-917343d686a2",
+        "average_usage": 42395,
+        "peak_usage": 98863,
+        "low_usage": 94651,
+        "total_reservations": 90538,
+        "created_at": "2023-09-13T16:44:05.938Z",
+        "updated_at": "2023-09-13T13:24:11.556Z",
+        "vehicle_id": "b3db0162-e4cf-4c76-99d7-dc5c9a67159c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "b24f2040-8237-4e4f-a8d2-34504540ab07",
+        "created_at": "2023-09-13T15:02:13.685Z",
+        "updated_at": "2023-09-13T13:08:39.794Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T12:27:11.853Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.4261485270690173,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Product Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "123456789"
+      },
+      {
+        "id": "1cee062f-6a81-473f-a1fb-92c4e8303bfa",
+        "created_at": "2023-09-14T03:28:39.494Z",
+        "updated_at": "2023-09-13T06:43:48.273Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-14T05:45:38.281Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.747943056281656,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "987654321"
+      },
+      {
+        "id": "72be1233-f81c-48c6-b896-5c0b76862268",
+        "created_at": "2023-09-13T20:39:41.997Z",
+        "updated_at": "2023-09-13T19:30:18.206Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T09:25:37.637Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.2871264114510268,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "456789123"
+      },
+      {
+        "id": "f123e772-4c57-4fa7-b1ba-1a0e6db0f7ea",
+        "created_at": "2023-09-14T04:20:31.060Z",
+        "updated_at": "2023-09-13T20:59:23.810Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T11:15:42.927Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.5528576769866049,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "321654987"
+      },
+      {
+        "id": "186aa000-bb80-4b7d-af83-cf71e2a45412",
+        "created_at": "2023-09-13T09:15:21.275Z",
+        "updated_at": "2023-09-13T08:45:08.619Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T17:57:52.995Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.2851969462353736,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Membership Payment",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "789123456"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "00e04634-a1cb-44b9-b6a3-be8566ab7047",
+        "email": "Gussie.Lowe58@hotmail.com",
+        "firstName": "Wellington",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58151938",
+        "tenantId": null
+      },
+      {
+        "reference": "8edf129e-45df-4208-9155-17d82bb5e172",
+        "email": "Margaretta.Doyle@hotmail.com",
+        "firstName": "Lessie",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/585.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1b47f89-9177-475a-afaf-a0cff4e33bd9",
+        "email": "Margret.Corwin@gmail.com",
+        "firstName": "Kiana",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/793.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b57ffdf-46b4-40da-9b84-e6a26280a781",
+        "email": "Ross_Braun95@yahoo.com",
+        "firstName": "Norris",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "235f4b6a-7378-42fd-92fd-7a12713291a8",
+        "email": "Lonzo.Adams62@hotmail.com",
+        "firstName": "Alysha",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/240.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "0d5da803-7d33-49f2-bc65-52c11a024a88",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 42578,
+        "color": "Red",
+        "mileage": 83315,
+        "created_at": "2023-09-13T15:34:19.384Z",
+        "updated_at": "2023-09-13T12:51:58.503Z"
+      },
+      {
+        "id": "35f67e0f-dad0-43d1-940b-e12e5c263ac7",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 48287,
+        "color": "Blue",
+        "mileage": 93638,
+        "created_at": "2023-09-14T02:41:08.289Z",
+        "updated_at": "2023-09-13T23:47:00.016Z"
+      },
+      {
+        "id": "fcbddc69-6ae8-4048-acda-d3f44f6aa574",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 84148,
+        "color": "Black",
+        "mileage": 67757,
+        "created_at": "2023-09-14T05:02:42.186Z",
+        "updated_at": "2023-09-13T17:10:26.380Z"
+      },
+      {
+        "id": "2d4d5203-a2bf-4206-ac50-8af0205c802f",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 89144,
+        "color": "White",
+        "mileage": 77067,
+        "created_at": "2023-09-14T02:19:58.192Z",
+        "updated_at": "2023-09-13T16:40:42.987Z"
+      },
+      {
+        "id": "c39905ab-0e68-4edb-9078-b5ff57b73914",
+        "make": "BMW",
+        "model": "X5",
+        "year": 20741,
+        "color": "Silver",
+        "mileage": 25147,
+        "created_at": "2023-09-13T08:46:12.115Z",
+        "updated_at": "2023-09-13T19:47:56.637Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "364c1ef1-cf3e-4eb5-9a27-c9c85fc3ecf8",
+        "start_time": "2023-09-13T06:18:10.618Z",
+        "end_time": "2023-09-13T20:52:24.895Z",
+        "distance_travelled": 53408,
+        "created_at": "2023-09-13T14:25:41.118Z",
+        "updated_at": "2023-09-13T11:02:13.646Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2d4d5203-a2bf-4206-ac50-8af0205c802f"
+      },
+      {
+        "id": "e7003206-d5af-4a91-8a0c-0e13afd80364",
+        "start_time": "2023-09-13T23:42:24.295Z",
+        "end_time": "2023-09-13T09:51:27.619Z",
+        "distance_travelled": 41648,
+        "created_at": "2023-09-13T22:19:52.379Z",
+        "updated_at": "2023-09-13T15:26:53.866Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0d5da803-7d33-49f2-bc65-52c11a024a88"
+      },
+      {
+        "id": "e4f98d64-975a-407c-b4d3-76ad1ab3e6f4",
+        "start_time": "2023-09-13T23:52:35.816Z",
+        "end_time": "2023-09-13T22:57:00.035Z",
+        "distance_travelled": 50256,
+        "created_at": "2023-09-13T21:05:34.930Z",
+        "updated_at": "2023-09-14T05:55:43.552Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "35f67e0f-dad0-43d1-940b-e12e5c263ac7"
+      },
+      {
+        "id": "594e4303-ccc4-4f7d-b1fa-19310665f78d",
+        "start_time": "2023-09-14T01:22:14.214Z",
+        "end_time": "2023-09-14T02:09:45.163Z",
+        "distance_travelled": 31246,
+        "created_at": "2023-09-13T23:16:22.070Z",
+        "updated_at": "2023-09-13T16:33:31.055Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fcbddc69-6ae8-4048-acda-d3f44f6aa574"
+      },
+      {
+        "id": "e870c45a-4c7d-48bd-a112-65b6cc16d48b",
+        "start_time": "2023-09-13T22:24:52.614Z",
+        "end_time": "2023-09-13T19:06:40.735Z",
+        "distance_travelled": 44137,
+        "created_at": "2023-09-13T09:52:39.640Z",
+        "updated_at": "2023-09-13T21:47:23.378Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0d5da803-7d33-49f2-bc65-52c11a024a88"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "482063c4-6dac-405f-8081-6893569016a5",
+        "start_time": "2023-09-13T13:48:23.643Z",
+        "end_time": "2023-09-13T21:42:50.740Z",
+        "created_at": "2023-09-14T05:56:42.165Z",
+        "updated_at": "2023-09-14T06:01:08.591Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "35f67e0f-dad0-43d1-940b-e12e5c263ac7"
+      },
+      {
+        "id": "fd22d70b-08be-42df-b165-a63d560a0e99",
+        "start_time": "2023-09-13T11:12:40.364Z",
+        "end_time": "2023-09-14T03:24:55.465Z",
+        "created_at": "2023-09-13T11:50:23.542Z",
+        "updated_at": "2023-09-14T02:31:01.201Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c39905ab-0e68-4edb-9078-b5ff57b73914"
+      },
+      {
+        "id": "5f9b46b6-a524-4f3e-a5b7-d8c06a7095ee",
+        "start_time": "2023-09-13T17:50:06.399Z",
+        "end_time": "2023-09-13T09:41:25.356Z",
+        "created_at": "2023-09-13T10:48:22.471Z",
+        "updated_at": "2023-09-13T12:02:12.912Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2d4d5203-a2bf-4206-ac50-8af0205c802f"
+      },
+      {
+        "id": "eb9d766e-1c2d-4a0a-a889-f24d2603166d",
+        "start_time": "2023-09-14T02:45:10.459Z",
+        "end_time": "2023-09-13T18:56:44.392Z",
+        "created_at": "2023-09-13T18:29:34.967Z",
+        "updated_at": "2023-09-13T11:09:15.943Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0d5da803-7d33-49f2-bc65-52c11a024a88"
+      },
+      {
+        "id": "bd6c88ec-184f-4032-b248-288dd2d11ab2",
+        "start_time": "2023-09-13T18:59:29.325Z",
+        "end_time": "2023-09-13T20:19:46.000Z",
+        "created_at": "2023-09-14T01:35:53.939Z",
+        "updated_at": "2023-09-13T11:14:33.164Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2d4d5203-a2bf-4206-ac50-8af0205c802f"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "f6758553-6a14-4b34-8b77-d57760d521e7",
+        "average_usage": 58661,
+        "peak_usage": 55863,
+        "low_usage": 17867,
+        "total_reservations": 85111,
+        "created_at": "2023-09-13T15:44:19.300Z",
+        "updated_at": "2023-09-14T05:32:36.839Z",
+        "vehicle_id": "c39905ab-0e68-4edb-9078-b5ff57b73914"
+      },
+      {
+        "id": "fd6fe02e-311c-4475-ba66-8d6d06c7c177",
+        "average_usage": 33837,
+        "peak_usage": 49652,
+        "low_usage": 79253,
+        "total_reservations": 73870,
+        "created_at": "2023-09-13T19:32:57.934Z",
+        "updated_at": "2023-09-14T03:29:15.921Z",
+        "vehicle_id": "fcbddc69-6ae8-4048-acda-d3f44f6aa574"
+      },
+      {
+        "id": "c7e3e7c5-530e-4463-a5e3-0401d939bcf2",
+        "average_usage": 51159,
+        "peak_usage": 95132,
+        "low_usage": 33215,
+        "total_reservations": 94264,
+        "created_at": "2023-09-13T07:49:24.150Z",
+        "updated_at": "2023-09-13T21:24:16.242Z",
+        "vehicle_id": "0d5da803-7d33-49f2-bc65-52c11a024a88"
+      },
+      {
+        "id": "facf2cc8-3766-4b78-bea1-9585472f5979",
+        "average_usage": 88751,
+        "peak_usage": 80217,
+        "low_usage": 65195,
+        "total_reservations": 581,
+        "created_at": "2023-09-13T15:43:24.990Z",
+        "updated_at": "2023-09-13T21:28:38.496Z",
+        "vehicle_id": "2d4d5203-a2bf-4206-ac50-8af0205c802f"
+      },
+      {
+        "id": "e1061206-890f-4147-b761-9da2ed62f2b9",
+        "average_usage": 32547,
+        "peak_usage": 11799,
+        "low_usage": 22556,
+        "total_reservations": 75508,
+        "created_at": "2023-09-13T15:09:23.667Z",
+        "updated_at": "2023-09-13T21:52:13.377Z",
+        "vehicle_id": "c39905ab-0e68-4edb-9078-b5ff57b73914"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3db5ef28-f34b-440e-8f5f-c99d7a3ef4f4",
+        "created_at": "2023-09-13T20:52:27.781Z",
+        "updated_at": "2023-09-13T09:17:03.366Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T15:58:37.798Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.17483366979286075,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Online Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "1234567890"
+      },
+      {
+        "id": "7d3007eb-aa55-4bf6-b20f-d93b40ff3fab",
+        "created_at": "2023-09-13T18:53:49.406Z",
+        "updated_at": "2023-09-14T02:04:40.170Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T13:15:58.613Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.31025146250613034,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "0987654321"
+      },
+      {
+        "id": "ef14da61-6b4d-44f5-9fea-f457b8c05f3d",
+        "created_at": "2023-09-13T23:18:00.120Z",
+        "updated_at": "2023-09-13T06:53:43.504Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T06:38:14.752Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.055255287792533636,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "2468135790"
+      },
+      {
+        "id": "7c774c70-0fd9-4231-8510-34abff38b2b9",
+        "created_at": "2023-09-13T09:07:07.938Z",
+        "updated_at": "2023-09-14T05:51:02.274Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T17:34:58.155Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.28613100899383426,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "1357924680"
+      },
+      {
+        "id": "136f892f-db8e-4fe7-a953-ac80a31717c1",
+        "created_at": "2023-09-14T04:07:50.825Z",
+        "updated_at": "2023-09-14T05:48:16.517Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T10:40:26.693Z",
+        "payment_method": "Diners Club",
+        "payment_amount": 0.41368678165599704,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Ticket Booking",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "9876543210"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d921986-0fe1-4427-a610-2af01d87079d",
+        "email": "Meta.Upton@gmail.com",
+        "firstName": "Norwood",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9460626",
+        "tenantId": null
+      },
+      {
+        "reference": "84ac478a-36ce-4fa1-9697-f0a5858240fb",
+        "email": "Jeremie4@gmail.com",
+        "firstName": "Franco",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/515.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e67514c4-b8cb-4c73-a098-55d4ba970b3c",
+        "email": "Joaquin_Beier20@yahoo.com",
+        "firstName": "Fredrick",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58898826",
+        "tenantId": null
+      },
+      {
+        "reference": "da55e936-f4a7-42e4-9b15-35f840204b55",
+        "email": "Angelina_Treutel18@yahoo.com",
+        "firstName": "Elian",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47569885",
+        "tenantId": null
+      },
+      {
+        "reference": "c8c2622f-4ed4-4451-b3a5-d05146d341c4",
+        "email": "Verla71@yahoo.com",
+        "firstName": "Hyman",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80894943",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "dd30bbd6-ea47-400f-8589-372890694f77",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 53746,
+        "color": "Red",
+        "mileage": 56113,
+        "created_at": "2023-09-13T20:30:37.795Z",
+        "updated_at": "2023-09-13T19:10:21.243Z"
+      },
+      {
+        "id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 12784,
+        "color": "Blue",
+        "mileage": 58469,
+        "created_at": "2023-09-13T07:52:44.002Z",
+        "updated_at": "2023-09-13T12:08:32.631Z"
+      },
+      {
+        "id": "0cae2dbc-402a-4fea-b29f-241e12ba77b1",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 35086,
+        "color": "Black",
+        "mileage": 90842,
+        "created_at": "2023-09-14T04:49:52.552Z",
+        "updated_at": "2023-09-13T21:27:04.055Z"
+      },
+      {
+        "id": "d5f96f22-e30e-47ab-a39b-76873e7cbe87",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 39133,
+        "color": "White",
+        "mileage": 13753,
+        "created_at": "2023-09-13T08:45:46.911Z",
+        "updated_at": "2023-09-13T21:04:44.612Z"
+      },
+      {
+        "id": "37d63678-5326-4354-9f69-8538d9f7c87a",
+        "make": "BMW",
+        "model": "X5",
+        "year": 98178,
+        "color": "Silver",
+        "mileage": 98747,
+        "created_at": "2023-09-13T23:35:56.614Z",
+        "updated_at": "2023-09-14T01:52:34.091Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "901f4337-05c4-4a30-a3ed-7799dd831432",
+        "start_time": "2023-09-13T14:47:49.460Z",
+        "end_time": "2023-09-13T07:03:03.758Z",
+        "distance_travelled": 98500,
+        "created_at": "2023-09-13T15:02:29.275Z",
+        "updated_at": "2023-09-13T13:52:18.320Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "cfced62f-24e1-4d72-a84d-845ca08a81c4",
+        "start_time": "2023-09-14T04:29:07.457Z",
+        "end_time": "2023-09-13T13:58:54.443Z",
+        "distance_travelled": 85939,
+        "created_at": "2023-09-13T12:40:12.896Z",
+        "updated_at": "2023-09-14T01:42:32.317Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "dd30bbd6-ea47-400f-8589-372890694f77"
+      },
+      {
+        "id": "76b14b99-3a85-4a53-9b34-7e05677cce66",
+        "start_time": "2023-09-13T08:22:29.297Z",
+        "end_time": "2023-09-14T02:14:01.946Z",
+        "distance_travelled": 14760,
+        "created_at": "2023-09-13T10:33:02.362Z",
+        "updated_at": "2023-09-13T09:40:04.020Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "8864fca1-bb8c-4b43-a910-fc142a74cb2a",
+        "start_time": "2023-09-13T23:21:13.738Z",
+        "end_time": "2023-09-13T12:00:42.660Z",
+        "distance_travelled": 31998,
+        "created_at": "2023-09-13T22:44:37.364Z",
+        "updated_at": "2023-09-13T07:03:23.245Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "37d63678-5326-4354-9f69-8538d9f7c87a"
+      },
+      {
+        "id": "fc5a0df7-30e3-420b-b229-074e6ff59b4b",
+        "start_time": "2023-09-13T14:00:01.824Z",
+        "end_time": "2023-09-13T17:50:16.898Z",
+        "distance_travelled": 34952,
+        "created_at": "2023-09-13T17:23:30.265Z",
+        "updated_at": "2023-09-14T04:54:26.444Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "da84f624-83ba-49b4-b9d0-37d817929a99",
+        "start_time": "2023-09-13T06:23:43.484Z",
+        "end_time": "2023-09-13T19:57:25.139Z",
+        "created_at": "2023-09-13T14:49:21.451Z",
+        "updated_at": "2023-09-14T01:03:55.994Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0cae2dbc-402a-4fea-b29f-241e12ba77b1"
+      },
+      {
+        "id": "4c437804-37bc-4758-8e94-d9db451e1fde",
+        "start_time": "2023-09-14T00:00:19.485Z",
+        "end_time": "2023-09-13T18:13:19.611Z",
+        "created_at": "2023-09-14T02:30:53.374Z",
+        "updated_at": "2023-09-13T14:10:01.608Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "f87811d0-dc9a-4ebc-a2bc-ea77ce0d0a06",
+        "start_time": "2023-09-13T12:28:59.675Z",
+        "end_time": "2023-09-14T04:25:07.623Z",
+        "created_at": "2023-09-14T02:13:35.103Z",
+        "updated_at": "2023-09-13T20:54:31.066Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "7434dca2-eaa1-43ba-984b-c46c85cec47a",
+        "start_time": "2023-09-13T08:40:51.490Z",
+        "end_time": "2023-09-13T16:53:30.191Z",
+        "created_at": "2023-09-13T11:17:11.718Z",
+        "updated_at": "2023-09-13T20:41:55.091Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "a3b9cb89-ca41-4577-8369-1d572980905e",
+        "start_time": "2023-09-14T04:25:53.585Z",
+        "end_time": "2023-09-13T18:29:47.072Z",
+        "created_at": "2023-09-13T22:27:32.995Z",
+        "updated_at": "2023-09-14T00:41:05.115Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d5f96f22-e30e-47ab-a39b-76873e7cbe87"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "993b1791-8860-40fd-8ed0-7d1a675ca873",
+        "average_usage": 10062,
+        "peak_usage": 3398,
+        "low_usage": 62250,
+        "total_reservations": 51836,
+        "created_at": "2023-09-13T20:05:07.846Z",
+        "updated_at": "2023-09-13T08:40:36.664Z",
+        "vehicle_id": "d5f96f22-e30e-47ab-a39b-76873e7cbe87"
+      },
+      {
+        "id": "8a360abb-e447-48fa-98f8-082aa623499c",
+        "average_usage": 120,
+        "peak_usage": 22833,
+        "low_usage": 85303,
+        "total_reservations": 45621,
+        "created_at": "2023-09-14T03:45:49.931Z",
+        "updated_at": "2023-09-13T20:38:44.205Z",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "f22a9f9e-afb8-4ded-a57f-bfaee9e5071b",
+        "average_usage": 19326,
+        "peak_usage": 93701,
+        "low_usage": 48969,
+        "total_reservations": 33447,
+        "created_at": "2023-09-13T11:23:22.890Z",
+        "updated_at": "2023-09-13T21:31:21.610Z",
+        "vehicle_id": "a12b5384-2380-4dd9-9653-b61f76a9c3ea"
+      },
+      {
+        "id": "ecef4801-b53a-459a-ae16-c0b426dd8ba3",
+        "average_usage": 54742,
+        "peak_usage": 72840,
+        "low_usage": 42744,
+        "total_reservations": 59316,
+        "created_at": "2023-09-13T11:02:13.553Z",
+        "updated_at": "2023-09-14T04:17:23.038Z",
+        "vehicle_id": "d5f96f22-e30e-47ab-a39b-76873e7cbe87"
+      },
+      {
+        "id": "26de69db-3aab-413e-bd62-ff0d5e6da1c3",
+        "average_usage": 83993,
+        "peak_usage": 76602,
+        "low_usage": 31594,
+        "total_reservations": 81096,
+        "created_at": "2023-09-13T07:26:05.842Z",
+        "updated_at": "2023-09-13T19:58:42.880Z",
+        "vehicle_id": "0cae2dbc-402a-4fea-b29f-241e12ba77b1"
+      }
+    ],
+    "payment": [
+      {
+        "id": "bd2a107e-50f9-4d1c-b6e6-82072a492474",
+        "created_at": "2023-09-13T06:16:20.257Z",
+        "updated_at": "2023-09-14T05:24:35.333Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T21:21:57.434Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.7892312074545771,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Product Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "1234567890"
+      },
+      {
+        "id": "998ec90c-cc0c-47fd-b05e-a1570deafee6",
+        "created_at": "2023-09-13T16:35:46.764Z",
+        "updated_at": "2023-09-13T08:20:04.209Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T10:38:22.265Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.17875268682837486,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "0987654321"
+      },
+      {
+        "id": "cd4251e3-0375-42be-8c1b-3614250b0179",
+        "created_at": "2023-09-13T20:39:32.719Z",
+        "updated_at": "2023-09-13T19:15:31.888Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T18:26:45.090Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.5257988951634616,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "2468135790"
+      },
+      {
+        "id": "4dd5bd8a-afb1-4996-8f29-b67ee7219811",
+        "created_at": "2023-09-14T05:35:13.995Z",
+        "updated_at": "2023-09-13T20:33:08.918Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-14T00:22:30.988Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.0686323563568294,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "1357924680"
+      },
+      {
+        "id": "c4288c89-cb34-4009-af15-f99f6ac70706",
+        "created_at": "2023-09-13T12:57:25.674Z",
+        "updated_at": "2023-09-14T00:29:44.901Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T13:11:16.978Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.17486243322491646,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Event Ticket",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "9876543210"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "605070c3-7822-40b7-85ae-f065bde0818d",
+        "email": "Ottilie_Funk11@yahoo.com",
+        "firstName": "Hiram",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76221276",
+        "tenantId": null
+      },
+      {
+        "reference": "b289e6d1-0946-4457-8fe1-833120636777",
+        "email": "Gordon.Pollich51@yahoo.com",
+        "firstName": "Frieda",
+        "lastName": "Fay-Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/210.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "80bc72b0-8014-4c7d-9912-711a38dee491",
+        "email": "Daphney98@gmail.com",
+        "firstName": "Mikel",
+        "lastName": "Heller-Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/515.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9120ac57-8fd4-4504-a81c-e113efb2e3b8",
+        "email": "Holly.Hoeger@yahoo.com",
+        "firstName": "Gunnar",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be685582-6ebe-43e0-a411-e76c6d6758f6",
+        "email": "Lauryn.Bailey@gmail.com",
+        "firstName": "Norbert",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48836053",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "4d6c27d4-dd99-4ee3-bbb7-835e81fa0491",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 87684,
+        "color": "Red",
+        "mileage": 74926,
+        "created_at": "2023-09-13T23:17:25.285Z",
+        "updated_at": "2023-09-13T19:41:19.532Z"
+      },
+      {
+        "id": "b0bcb3b3-75c7-465d-99d1-152b53f92d59",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 87106,
+        "color": "Blue",
+        "mileage": 29065,
+        "created_at": "2023-09-14T05:00:24.383Z",
+        "updated_at": "2023-09-13T16:45:52.531Z"
+      },
+      {
+        "id": "79b06a89-74d8-432b-88c3-e6ff354cc113",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 96364,
+        "color": "Black",
+        "mileage": 44250,
+        "created_at": "2023-09-13T15:29:45.230Z",
+        "updated_at": "2023-09-13T23:25:31.301Z"
+      },
+      {
+        "id": "2c827708-c299-4b21-bbcd-f3936c7be1e6",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 92531,
+        "color": "White",
+        "mileage": 1004,
+        "created_at": "2023-09-14T01:48:02.959Z",
+        "updated_at": "2023-09-14T01:09:45.791Z"
+      },
+      {
+        "id": "542ff34c-90ea-4278-bd8e-3d00c6d6bcf1",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 43498,
+        "color": "Silver",
+        "mileage": 74936,
+        "created_at": "2023-09-14T01:10:03.232Z",
+        "updated_at": "2023-09-13T19:19:24.139Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "e575b4a9-993d-4a11-a18f-7d16825530b3",
+        "start_time": "2023-09-13T21:02:00.740Z",
+        "end_time": "2023-09-13T20:04:13.386Z",
+        "distance_travelled": 42102,
+        "created_at": "2023-09-13T10:45:05.194Z",
+        "updated_at": "2023-09-13T18:27:48.609Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b0bcb3b3-75c7-465d-99d1-152b53f92d59"
+      },
+      {
+        "id": "df764912-ea1f-440e-bf30-6bf8fdd066c9",
+        "start_time": "2023-09-13T06:25:27.124Z",
+        "end_time": "2023-09-14T05:49:55.116Z",
+        "distance_travelled": 39288,
+        "created_at": "2023-09-14T01:33:31.489Z",
+        "updated_at": "2023-09-13T20:32:47.352Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b0bcb3b3-75c7-465d-99d1-152b53f92d59"
+      },
+      {
+        "id": "d1e039a2-4743-4759-ad52-cfb17438c544",
+        "start_time": "2023-09-14T00:57:59.889Z",
+        "end_time": "2023-09-14T04:55:20.889Z",
+        "distance_travelled": 49923,
+        "created_at": "2023-09-13T08:59:18.544Z",
+        "updated_at": "2023-09-13T17:52:13.692Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4d6c27d4-dd99-4ee3-bbb7-835e81fa0491"
+      },
+      {
+        "id": "d6c49499-e196-4a64-9b05-b313fe51637b",
+        "start_time": "2023-09-14T03:07:49.156Z",
+        "end_time": "2023-09-14T00:57:04.599Z",
+        "distance_travelled": 20051,
+        "created_at": "2023-09-13T23:27:58.968Z",
+        "updated_at": "2023-09-13T13:51:49.499Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2c827708-c299-4b21-bbcd-f3936c7be1e6"
+      },
+      {
+        "id": "3a03bce6-4414-4693-86ba-9e74f8be29fb",
+        "start_time": "2023-09-13T13:16:28.805Z",
+        "end_time": "2023-09-13T08:43:50.054Z",
+        "distance_travelled": 91263,
+        "created_at": "2023-09-13T17:06:00.533Z",
+        "updated_at": "2023-09-14T02:49:46.673Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "b0bcb3b3-75c7-465d-99d1-152b53f92d59"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "9f142d83-24c9-4b13-af11-579e2abacd59",
+        "start_time": "2023-09-14T02:05:48.745Z",
+        "end_time": "2023-09-13T13:38:18.422Z",
+        "created_at": "2023-09-13T15:35:35.948Z",
+        "updated_at": "2023-09-13T21:40:30.497Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2c827708-c299-4b21-bbcd-f3936c7be1e6"
+      },
+      {
+        "id": "0b25db1a-781c-445c-8023-e80122bfc4c7",
+        "start_time": "2023-09-13T13:07:18.661Z",
+        "end_time": "2023-09-13T09:58:28.283Z",
+        "created_at": "2023-09-14T03:09:48.232Z",
+        "updated_at": "2023-09-14T00:49:51.887Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "79b06a89-74d8-432b-88c3-e6ff354cc113"
+      },
+      {
+        "id": "9eb73ff5-9169-462e-8e84-8a2a24d393bf",
+        "start_time": "2023-09-13T22:21:37.085Z",
+        "end_time": "2023-09-13T14:26:48.474Z",
+        "created_at": "2023-09-13T08:29:11.310Z",
+        "updated_at": "2023-09-13T10:57:03.545Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "79b06a89-74d8-432b-88c3-e6ff354cc113"
+      },
+      {
+        "id": "af0c0e52-ce3f-40b6-af80-fef50eee2298",
+        "start_time": "2023-09-13T21:16:04.438Z",
+        "end_time": "2023-09-13T18:27:13.324Z",
+        "created_at": "2023-09-13T23:34:19.007Z",
+        "updated_at": "2023-09-14T03:34:31.066Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4d6c27d4-dd99-4ee3-bbb7-835e81fa0491"
+      },
+      {
+        "id": "8e7e048c-2f53-40d9-aba8-9b3619bc1c43",
+        "start_time": "2023-09-13T19:08:15.805Z",
+        "end_time": "2023-09-13T14:57:55.321Z",
+        "created_at": "2023-09-13T22:10:10.815Z",
+        "updated_at": "2023-09-13T23:04:56.329Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "542ff34c-90ea-4278-bd8e-3d00c6d6bcf1"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "e505a918-f2c5-44ad-99de-012ff0ade920",
+        "average_usage": 53764,
+        "peak_usage": 14416,
+        "low_usage": 57141,
+        "total_reservations": 94817,
+        "created_at": "2023-09-13T21:57:40.175Z",
+        "updated_at": "2023-09-13T21:21:33.701Z",
+        "vehicle_id": "79b06a89-74d8-432b-88c3-e6ff354cc113"
+      },
+      {
+        "id": "9ff71b24-df2c-4f5d-99ca-85915b3f4700",
+        "average_usage": 97921,
+        "peak_usage": 66156,
+        "low_usage": 12838,
+        "total_reservations": 78709,
+        "created_at": "2023-09-13T10:45:13.824Z",
+        "updated_at": "2023-09-13T15:01:38.682Z",
+        "vehicle_id": "542ff34c-90ea-4278-bd8e-3d00c6d6bcf1"
+      },
+      {
+        "id": "b843c9a5-03ec-4a70-8b9d-32ec172ba9ec",
+        "average_usage": 92337,
+        "peak_usage": 59012,
+        "low_usage": 90913,
+        "total_reservations": 33658,
+        "created_at": "2023-09-13T16:20:00.366Z",
+        "updated_at": "2023-09-13T18:59:02.867Z",
+        "vehicle_id": "b0bcb3b3-75c7-465d-99d1-152b53f92d59"
+      },
+      {
+        "id": "9ab22940-7a80-449f-8dd7-a3a9de4bbdd8",
+        "average_usage": 29315,
+        "peak_usage": 85260,
+        "low_usage": 85484,
+        "total_reservations": 73617,
+        "created_at": "2023-09-13T23:28:31.435Z",
+        "updated_at": "2023-09-14T05:28:40.529Z",
+        "vehicle_id": "542ff34c-90ea-4278-bd8e-3d00c6d6bcf1"
+      },
+      {
+        "id": "dd41f4ac-a85b-4ac2-9ba2-6179dfc61a3c",
+        "average_usage": 83956,
+        "peak_usage": 48089,
+        "low_usage": 13548,
+        "total_reservations": 83523,
+        "created_at": "2023-09-13T09:29:41.794Z",
+        "updated_at": "2023-09-14T03:50:31.785Z",
+        "vehicle_id": "79b06a89-74d8-432b-88c3-e6ff354cc113"
+      }
+    ],
+    "payment": [
+      {
+        "id": "65ddf3d7-5268-45c7-bfe9-5d794252316f",
+        "created_at": "2023-09-13T21:57:44.062Z",
+        "updated_at": "2023-09-14T03:46:19.947Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T16:21:06.320Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.6878958239685744,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "1234567890"
+      },
+      {
+        "id": "e2d59365-2ae5-491f-83fb-ce0be6de52f2",
+        "created_at": "2023-09-13T10:04:53.138Z",
+        "updated_at": "2023-09-14T03:44:48.996Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T15:26:02.553Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.06116839963942766,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "0987654321"
+      },
+      {
+        "id": "10c8b958-7d53-4d83-89c0-a5150d39aac1",
+        "created_at": "2023-09-13T20:04:09.662Z",
+        "updated_at": "2023-09-14T02:33:45.415Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T13:49:06.100Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.1188150707166642,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "5678901234"
+      },
+      {
+        "id": "5fd04216-fa0d-492c-98a7-3329046f9bcf",
+        "created_at": "2023-09-13T06:22:50.841Z",
+        "updated_at": "2023-09-13T21:01:33.034Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T06:51:41.131Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.9359002618584782,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "4321098765"
+      },
+      {
+        "id": "fc16b4f3-b160-4086-a7aa-adca0cd81089",
+        "created_at": "2023-09-13T10:08:30.722Z",
+        "updated_at": "2023-09-14T04:07:43.488Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T14:45:59.276Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.7332305298186839,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Deposit",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "9876543210"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "989884ed-3baf-4884-a7f6-de1fddd4e911",
+        "email": "Shyanne64@gmail.com",
+        "firstName": "Ward",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31837297",
+        "tenantId": null
+      },
+      {
+        "reference": "3b79996e-9408-4ef4-add7-2ddf62a966e8",
+        "email": "Vincent45@gmail.com",
+        "firstName": "Sonny",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/756.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4dfe3ac4-89af-4376-aa1d-d1f5c37ae80a",
+        "email": "Claire.Miller@gmail.com",
+        "firstName": "Axel",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/720.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9878f7ff-d290-465c-bc8b-36ec2c74c034",
+        "email": "Dale97@hotmail.com",
+        "firstName": "Elisa",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24022666",
+        "tenantId": null
+      },
+      {
+        "reference": "9c710b16-f3a1-49a8-9101-f6751232b83e",
+        "email": "Chadd.Tillman@yahoo.com",
+        "firstName": "Gabriel",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83380665",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "a302e1db-f969-4c94-bc81-07845410f4d1",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 58307,
+        "color": "Red",
+        "mileage": 81619,
+        "created_at": "2023-09-13T20:53:34.769Z",
+        "updated_at": "2023-09-13T13:27:33.422Z"
+      },
+      {
+        "id": "cd6ab780-f5b7-4ac0-947a-afbeb3989961",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 39591,
+        "color": "Blue",
+        "mileage": 85885,
+        "created_at": "2023-09-14T05:47:22.560Z",
+        "updated_at": "2023-09-13T20:54:47.456Z"
+      },
+      {
+        "id": "15e4e0d4-ab5b-4ae2-937d-371d8ebbe1a2",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 65841,
+        "color": "Black",
+        "mileage": 2433,
+        "created_at": "2023-09-13T09:51:12.002Z",
+        "updated_at": "2023-09-13T23:41:27.376Z"
+      },
+      {
+        "id": "79a41726-27be-4801-8450-1540cc8c6b4b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 17685,
+        "color": "White",
+        "mileage": 51835,
+        "created_at": "2023-09-14T05:09:09.362Z",
+        "updated_at": "2023-09-13T15:55:44.685Z"
+      },
+      {
+        "id": "e40f2981-bc2e-49bc-a4b0-ebde7a44079c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 22631,
+        "color": "Silver",
+        "mileage": 18540,
+        "created_at": "2023-09-14T04:35:30.373Z",
+        "updated_at": "2023-09-13T10:24:38.667Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "5c8ad2dd-95bd-4e98-8e1f-9418eebf4dda",
+        "start_time": "2023-09-14T03:30:47.386Z",
+        "end_time": "2023-09-13T09:30:08.939Z",
+        "distance_travelled": 73284,
+        "created_at": "2023-09-13T17:37:59.020Z",
+        "updated_at": "2023-09-13T19:47:03.812Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cd6ab780-f5b7-4ac0-947a-afbeb3989961"
+      },
+      {
+        "id": "0cbd1fd2-a846-454c-ab89-07f2ee81c16a",
+        "start_time": "2023-09-13T16:46:14.571Z",
+        "end_time": "2023-09-13T10:50:44.646Z",
+        "distance_travelled": 24747,
+        "created_at": "2023-09-13T07:17:54.777Z",
+        "updated_at": "2023-09-14T05:41:58.454Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e40f2981-bc2e-49bc-a4b0-ebde7a44079c"
+      },
+      {
+        "id": "39a5be9d-1704-4d13-bbe2-f8b4f116badc",
+        "start_time": "2023-09-13T06:33:06.965Z",
+        "end_time": "2023-09-14T02:17:14.173Z",
+        "distance_travelled": 89135,
+        "created_at": "2023-09-13T19:36:21.756Z",
+        "updated_at": "2023-09-13T12:16:51.230Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a302e1db-f969-4c94-bc81-07845410f4d1"
+      },
+      {
+        "id": "bee0241c-bb1f-4119-8370-72944d6dc62d",
+        "start_time": "2023-09-14T01:19:46.516Z",
+        "end_time": "2023-09-13T17:57:44.257Z",
+        "distance_travelled": 95013,
+        "created_at": "2023-09-13T13:26:03.136Z",
+        "updated_at": "2023-09-13T06:28:32.647Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "79a41726-27be-4801-8450-1540cc8c6b4b"
+      },
+      {
+        "id": "9e65a882-c0de-4e50-b761-4592a08546dc",
+        "start_time": "2023-09-13T10:02:48.453Z",
+        "end_time": "2023-09-13T19:18:40.488Z",
+        "distance_travelled": 56061,
+        "created_at": "2023-09-13T21:03:50.711Z",
+        "updated_at": "2023-09-13T07:50:01.904Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e40f2981-bc2e-49bc-a4b0-ebde7a44079c"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "86c80c91-bbec-4572-a6ab-a2837bedb3d0",
+        "start_time": "2023-09-14T02:40:25.307Z",
+        "end_time": "2023-09-13T23:53:59.871Z",
+        "created_at": "2023-09-13T11:55:16.131Z",
+        "updated_at": "2023-09-13T16:14:40.470Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "79a41726-27be-4801-8450-1540cc8c6b4b"
+      },
+      {
+        "id": "4cef184e-30d2-416e-a247-70ea5776c46b",
+        "start_time": "2023-09-13T20:22:36.314Z",
+        "end_time": "2023-09-13T20:46:05.831Z",
+        "created_at": "2023-09-13T21:12:29.483Z",
+        "updated_at": "2023-09-13T16:03:13.941Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "cd6ab780-f5b7-4ac0-947a-afbeb3989961"
+      },
+      {
+        "id": "b31a955a-60e6-4fec-abc6-ed28fbe1f1e9",
+        "start_time": "2023-09-13T18:33:52.810Z",
+        "end_time": "2023-09-13T12:45:54.047Z",
+        "created_at": "2023-09-13T17:22:27.301Z",
+        "updated_at": "2023-09-13T18:02:22.455Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a302e1db-f969-4c94-bc81-07845410f4d1"
+      },
+      {
+        "id": "2755243f-8825-4d77-a994-20612c296243",
+        "start_time": "2023-09-14T01:34:37.079Z",
+        "end_time": "2023-09-14T05:48:16.417Z",
+        "created_at": "2023-09-13T09:52:01.098Z",
+        "updated_at": "2023-09-13T06:18:43.105Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "15e4e0d4-ab5b-4ae2-937d-371d8ebbe1a2"
+      },
+      {
+        "id": "33cf4438-6f9f-47d1-9afc-891de6809088",
+        "start_time": "2023-09-14T01:05:18.120Z",
+        "end_time": "2023-09-13T14:34:04.599Z",
+        "created_at": "2023-09-13T10:22:15.190Z",
+        "updated_at": "2023-09-13T08:57:17.932Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e40f2981-bc2e-49bc-a4b0-ebde7a44079c"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "46ab9384-a84a-48fe-9e8b-dc2a0ebc2418",
+        "average_usage": 24303,
+        "peak_usage": 48953,
+        "low_usage": 86773,
+        "total_reservations": 51644,
+        "created_at": "2023-09-13T15:34:15.345Z",
+        "updated_at": "2023-09-13T16:56:42.983Z",
+        "vehicle_id": "cd6ab780-f5b7-4ac0-947a-afbeb3989961"
+      },
+      {
+        "id": "e7cc7155-3da3-4b0d-bac4-9a333b89ccfc",
+        "average_usage": 11615,
+        "peak_usage": 49721,
+        "low_usage": 2378,
+        "total_reservations": 80778,
+        "created_at": "2023-09-14T00:25:02.216Z",
+        "updated_at": "2023-09-13T11:02:50.957Z",
+        "vehicle_id": "15e4e0d4-ab5b-4ae2-937d-371d8ebbe1a2"
+      },
+      {
+        "id": "e8a36fde-0b07-4a00-86e6-07b56669b7fb",
+        "average_usage": 7329,
+        "peak_usage": 81139,
+        "low_usage": 36883,
+        "total_reservations": 85920,
+        "created_at": "2023-09-13T11:42:17.725Z",
+        "updated_at": "2023-09-13T20:21:50.955Z",
+        "vehicle_id": "79a41726-27be-4801-8450-1540cc8c6b4b"
+      },
+      {
+        "id": "88c62b52-132c-432e-9028-ab76f8958a4c",
+        "average_usage": 30160,
+        "peak_usage": 8301,
+        "low_usage": 8998,
+        "total_reservations": 52553,
+        "created_at": "2023-09-14T06:04:36.130Z",
+        "updated_at": "2023-09-13T19:52:03.247Z",
+        "vehicle_id": "79a41726-27be-4801-8450-1540cc8c6b4b"
+      },
+      {
+        "id": "75c10b6a-9d0b-4446-9cae-035b9d651c56",
+        "average_usage": 94248,
+        "peak_usage": 4896,
+        "low_usage": 58214,
+        "total_reservations": 83133,
+        "created_at": "2023-09-13T06:50:50.229Z",
+        "updated_at": "2023-09-13T07:20:17.227Z",
+        "vehicle_id": "e40f2981-bc2e-49bc-a4b0-ebde7a44079c"
+      }
+    ],
+    "payment": [
+      {
+        "id": "662e5e82-876e-4f4f-a5b5-20d9eba51ed4",
+        "created_at": "2023-09-13T16:10:41.179Z",
+        "updated_at": "2023-09-13T15:06:25.135Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-14T05:26:11.280Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.543650170089677,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Online Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "1234567890"
+      },
+      {
+        "id": "87fb406a-b330-43fc-b6ae-33af9f85653b",
+        "created_at": "2023-09-13T23:31:08.725Z",
+        "updated_at": "2023-09-13T18:54:46.801Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T20:28:20.273Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.24157324968837202,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "0987654321"
+      },
+      {
+        "id": "475723d8-7409-4e30-ae8d-492361a9c263",
+        "created_at": "2023-09-13T13:52:20.576Z",
+        "updated_at": "2023-09-13T09:28:23.801Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-14T00:21:18.557Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.09111242950893939,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "2468135790"
+      },
+      {
+        "id": "12343f04-2ea2-4a7c-80de-ad5f2e20bfc4",
+        "created_at": "2023-09-13T08:16:30.023Z",
+        "updated_at": "2023-09-14T00:56:56.514Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T15:07:59.766Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.7365905113983899,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "1357924680"
+      },
+      {
+        "id": "5fecf560-d6ef-4e08-a30b-e541dbf97faa",
+        "created_at": "2023-09-13T14:54:12.708Z",
+        "updated_at": "2023-09-13T07:36:30.752Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-14T02:40:12.212Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.1962560552638024,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Product Payment",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "9876543210"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e03a0b97-fe96-411d-8177-6cdbf1c591c1",
+        "email": "Heaven_Upton26@yahoo.com",
+        "firstName": "Nathen",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "805bfaa1-d907-4c24-a571-ac7db530b271",
+        "email": "Summer33@gmail.com",
+        "firstName": "Jordon",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95182560",
+        "tenantId": null
+      },
+      {
+        "reference": "2dedb4bd-0519-42c3-b3a6-0a68d326dbba",
+        "email": "Tod86@yahoo.com",
+        "firstName": "Vivianne",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/394.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11520bbd-277a-4c5a-98d1-b14626d4e1bd",
+        "email": "Jimmie_Wilkinson62@gmail.com",
+        "firstName": "Arlo",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1126.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be9d2439-7d29-485f-9795-a1d3051486a7",
+        "email": "Daniela_Dicki@gmail.com",
+        "firstName": "Eileen",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "2d7c6d2a-bf48-4b48-be62-079ff6a898de",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 21480,
+        "color": "Red",
+        "mileage": 65605,
+        "created_at": "2023-09-14T05:23:58.791Z",
+        "updated_at": "2023-09-13T21:30:04.507Z"
+      },
+      {
+        "id": "2957da34-59bd-4b66-b1d2-ad7023829ce5",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 75878,
+        "color": "Blue",
+        "mileage": 83232,
+        "created_at": "2023-09-13T22:11:19.469Z",
+        "updated_at": "2023-09-13T09:02:48.063Z"
+      },
+      {
+        "id": "58ce8121-38f1-4657-b50e-5f0d3e872fd2",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 78869,
+        "color": "Black",
+        "mileage": 31836,
+        "created_at": "2023-09-14T04:01:50.346Z",
+        "updated_at": "2023-09-14T04:50:56.504Z"
+      },
+      {
+        "id": "0c343fa2-49eb-45e5-843a-b55fe801da36",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 60313,
+        "color": "White",
+        "mileage": 46581,
+        "created_at": "2023-09-13T14:21:11.045Z",
+        "updated_at": "2023-09-13T14:03:12.312Z"
+      },
+      {
+        "id": "ba75ca3c-8a65-42dc-981d-1285c1150a0b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 70165,
+        "color": "Silver",
+        "mileage": 15102,
+        "created_at": "2023-09-13T19:50:38.180Z",
+        "updated_at": "2023-09-13T13:39:07.338Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "30132f3a-86d3-4937-87d4-bdf992a779a7",
+        "start_time": "2023-09-13T11:06:10.494Z",
+        "end_time": "2023-09-13T13:19:54.758Z",
+        "distance_travelled": 83158,
+        "created_at": "2023-09-14T05:43:55.007Z",
+        "updated_at": "2023-09-13T06:26:47.730Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba75ca3c-8a65-42dc-981d-1285c1150a0b"
+      },
+      {
+        "id": "18c3edab-127b-40e0-951b-bb25a3ae3a0d",
+        "start_time": "2023-09-13T06:19:51.610Z",
+        "end_time": "2023-09-13T07:47:20.375Z",
+        "distance_travelled": 54233,
+        "created_at": "2023-09-13T18:17:05.928Z",
+        "updated_at": "2023-09-13T17:34:42.445Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2d7c6d2a-bf48-4b48-be62-079ff6a898de"
+      },
+      {
+        "id": "dcb2309a-aab3-4611-b18a-4aa4965500fe",
+        "start_time": "2023-09-13T20:11:35.450Z",
+        "end_time": "2023-09-13T15:55:59.756Z",
+        "distance_travelled": 62841,
+        "created_at": "2023-09-13T19:06:43.750Z",
+        "updated_at": "2023-09-13T17:19:34.091Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "58ce8121-38f1-4657-b50e-5f0d3e872fd2"
+      },
+      {
+        "id": "1271caf9-c855-4666-8e2c-4cbab1bda264",
+        "start_time": "2023-09-13T16:59:20.042Z",
+        "end_time": "2023-09-13T06:36:12.041Z",
+        "distance_travelled": 15021,
+        "created_at": "2023-09-13T13:07:38.215Z",
+        "updated_at": "2023-09-14T05:23:44.344Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0c343fa2-49eb-45e5-843a-b55fe801da36"
+      },
+      {
+        "id": "bfb3e75b-6b41-49ca-97fb-b95115f782c6",
+        "start_time": "2023-09-13T17:58:21.355Z",
+        "end_time": "2023-09-13T14:33:27.990Z",
+        "distance_travelled": 11307,
+        "created_at": "2023-09-14T03:14:20.337Z",
+        "updated_at": "2023-09-13T11:26:38.319Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0c343fa2-49eb-45e5-843a-b55fe801da36"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "f4ff8f3e-83fc-450e-9797-5e0243a44d39",
+        "start_time": "2023-09-13T13:13:05.390Z",
+        "end_time": "2023-09-14T05:24:50.295Z",
+        "created_at": "2023-09-14T05:06:58.876Z",
+        "updated_at": "2023-09-13T07:20:50.412Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2d7c6d2a-bf48-4b48-be62-079ff6a898de"
+      },
+      {
+        "id": "5564cc8c-3784-4969-9cac-70cd4df32b7d",
+        "start_time": "2023-09-14T05:55:57.500Z",
+        "end_time": "2023-09-13T20:44:46.081Z",
+        "created_at": "2023-09-13T09:24:24.941Z",
+        "updated_at": "2023-09-13T06:53:11.927Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "ba75ca3c-8a65-42dc-981d-1285c1150a0b"
+      },
+      {
+        "id": "a105ad92-f79b-4ea1-957b-0d065878f1d5",
+        "start_time": "2023-09-14T06:09:27.149Z",
+        "end_time": "2023-09-13T18:32:49.041Z",
+        "created_at": "2023-09-13T18:51:50.011Z",
+        "updated_at": "2023-09-14T02:15:57.529Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2d7c6d2a-bf48-4b48-be62-079ff6a898de"
+      },
+      {
+        "id": "99bcbc26-344a-4811-a428-80fcfecefe3a",
+        "start_time": "2023-09-14T02:58:32.265Z",
+        "end_time": "2023-09-13T13:13:34.410Z",
+        "created_at": "2023-09-13T22:05:16.951Z",
+        "updated_at": "2023-09-13T17:33:25.981Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0c343fa2-49eb-45e5-843a-b55fe801da36"
+      },
+      {
+        "id": "2e9f145c-62df-477a-9f05-3635b132a445",
+        "start_time": "2023-09-13T07:09:34.469Z",
+        "end_time": "2023-09-13T11:18:43.528Z",
+        "created_at": "2023-09-14T05:51:57.765Z",
+        "updated_at": "2023-09-13T10:41:32.983Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2957da34-59bd-4b66-b1d2-ad7023829ce5"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "bf9a1cb8-8bd0-41bd-a3c1-7f8691d8f606",
+        "average_usage": 59202,
+        "peak_usage": 6079,
+        "low_usage": 5299,
+        "total_reservations": 28404,
+        "created_at": "2023-09-14T05:45:17.074Z",
+        "updated_at": "2023-09-13T14:16:46.969Z",
+        "vehicle_id": "0c343fa2-49eb-45e5-843a-b55fe801da36"
+      },
+      {
+        "id": "c1863ceb-1914-45dc-963a-96aa4dcf0427",
+        "average_usage": 22680,
+        "peak_usage": 62605,
+        "low_usage": 3090,
+        "total_reservations": 85246,
+        "created_at": "2023-09-14T04:52:46.043Z",
+        "updated_at": "2023-09-14T05:48:02.353Z",
+        "vehicle_id": "58ce8121-38f1-4657-b50e-5f0d3e872fd2"
+      },
+      {
+        "id": "28c18698-e183-4a0e-946c-a55417078109",
+        "average_usage": 30131,
+        "peak_usage": 89555,
+        "low_usage": 38577,
+        "total_reservations": 37999,
+        "created_at": "2023-09-13T23:38:29.857Z",
+        "updated_at": "2023-09-13T14:53:28.685Z",
+        "vehicle_id": "0c343fa2-49eb-45e5-843a-b55fe801da36"
+      },
+      {
+        "id": "73b9b36d-2a63-4bad-8b1e-f966879d12a6",
+        "average_usage": 31076,
+        "peak_usage": 33604,
+        "low_usage": 72788,
+        "total_reservations": 41350,
+        "created_at": "2023-09-14T04:14:53.075Z",
+        "updated_at": "2023-09-13T21:42:00.235Z",
+        "vehicle_id": "ba75ca3c-8a65-42dc-981d-1285c1150a0b"
+      },
+      {
+        "id": "a093d5ae-8a66-4867-abf8-99f46cf3dc17",
+        "average_usage": 64445,
+        "peak_usage": 97075,
+        "low_usage": 15300,
+        "total_reservations": 47574,
+        "created_at": "2023-09-13T10:42:05.124Z",
+        "updated_at": "2023-09-13T17:35:20.896Z",
+        "vehicle_id": "0c343fa2-49eb-45e5-843a-b55fe801da36"
+      }
+    ],
+    "payment": [
+      {
+        "id": "d9c3ef73-9947-4f6c-b9c1-83fb8bd8075b",
+        "created_at": "2023-09-14T05:35:12.935Z",
+        "updated_at": "2023-09-14T05:11:16.508Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T08:05:23.892Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.8315929148811847,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Product Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "123456789"
+      },
+      {
+        "id": "1d1bd34c-0101-457e-989e-f83912795bab",
+        "created_at": "2023-09-13T11:51:09.986Z",
+        "updated_at": "2023-09-13T14:12:08.204Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T23:12:27.417Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.8242766361217946,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "987654321"
+      },
+      {
+        "id": "f981cc8c-978e-41ee-abe8-e827a1cc7431",
+        "created_at": "2023-09-14T04:59:22.773Z",
+        "updated_at": "2023-09-13T06:37:38.828Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-14T04:39:52.364Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.11956938006915152,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "543210987"
+      },
+      {
+        "id": "4ddd9443-ab57-49e7-afee-35bb65c76e2d",
+        "created_at": "2023-09-13T16:04:26.078Z",
+        "updated_at": "2023-09-13T21:32:34.584Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-13T08:02:22.205Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.268544162157923,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "456789123"
+      },
+      {
+        "id": "5f9743c4-23c0-442f-8425-af6e647474ac",
+        "created_at": "2023-09-13T11:32:52.745Z",
+        "updated_at": "2023-09-14T01:16:09.823Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T08:07:15.162Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.756680543301627,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Membership Payment",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "321654987"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa81a649-e5a6-48c5-b517-45a97a150b6d",
+        "email": "Arely_Mohr55@gmail.com",
+        "firstName": "Malachi",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/383.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52a54c52-aef6-48c0-9939-cb4f63f6e101",
+        "email": "Narciso_Nolan60@yahoo.com",
+        "firstName": "Hipolito",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35252000",
+        "tenantId": null
+      },
+      {
+        "reference": "78f8ae07-0ffd-4a3d-8a8c-242d23cd1c57",
+        "email": "Winston49@gmail.com",
+        "firstName": "Rose",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ad9df6f-a0df-437a-8b1f-31f55ccd097a",
+        "email": "Marietta.Schuppe85@hotmail.com",
+        "firstName": "Myrna",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/97.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef3b04c5-1d6b-41c6-9ee9-f3bbc5b079a7",
+        "email": "Gaston_Schneider@gmail.com",
+        "firstName": "Brook",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "a6607443-d1e6-4c3a-ba58-648b02bf11bb",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 30757,
+        "color": "Red",
+        "mileage": 43755,
+        "created_at": "2023-09-14T03:51:33.539Z",
+        "updated_at": "2023-09-13T12:04:16.171Z"
+      },
+      {
+        "id": "58f7a102-cd19-4033-b531-cf980114471a",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 49843,
+        "color": "Blue",
+        "mileage": 69121,
+        "created_at": "2023-09-14T00:02:04.251Z",
+        "updated_at": "2023-09-13T07:22:11.474Z"
+      },
+      {
+        "id": "c342ec5b-4d47-4967-bba0-92054e8f500b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 1291,
+        "color": "Black",
+        "mileage": 16747,
+        "created_at": "2023-09-13T10:06:48.152Z",
+        "updated_at": "2023-09-13T12:15:06.032Z"
+      },
+      {
+        "id": "614ccd81-4106-4874-b032-f96075769226",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 40532,
+        "color": "White",
+        "mileage": 37946,
+        "created_at": "2023-09-13T12:15:32.890Z",
+        "updated_at": "2023-09-13T09:18:10.121Z"
+      },
+      {
+        "id": "2af01f4e-d97a-4bb6-a1f3-f36e84ff0ad1",
+        "make": "BMW",
+        "model": "X5",
+        "year": 21066,
+        "color": "Silver",
+        "mileage": 73613,
+        "created_at": "2023-09-14T06:10:11.211Z",
+        "updated_at": "2023-09-14T00:31:29.632Z"
+      }
+    ],
+    "vehicle_usage": [
+      {
+        "id": "00407925-0bae-46e3-a382-f8e51c739137",
+        "start_time": "2023-09-13T18:44:43.580Z",
+        "end_time": "2023-09-14T03:53:27.482Z",
+        "distance_travelled": 57617,
+        "created_at": "2023-09-14T05:20:16.023Z",
+        "updated_at": "2023-09-14T00:57:11.480Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2af01f4e-d97a-4bb6-a1f3-f36e84ff0ad1"
+      },
+      {
+        "id": "697b8b05-6733-49bb-92e5-1989414cc0d7",
+        "start_time": "2023-09-13T17:40:15.277Z",
+        "end_time": "2023-09-13T15:06:57.001Z",
+        "distance_travelled": 28177,
+        "created_at": "2023-09-13T16:50:00.419Z",
+        "updated_at": "2023-09-13T06:22:43.997Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "58f7a102-cd19-4033-b531-cf980114471a"
+      },
+      {
+        "id": "006e5440-05a2-41b2-8f5c-1dafe4beb6bb",
+        "start_time": "2023-09-13T08:26:19.861Z",
+        "end_time": "2023-09-13T17:11:50.552Z",
+        "distance_travelled": 26255,
+        "created_at": "2023-09-13T20:37:15.637Z",
+        "updated_at": "2023-09-14T03:38:39.624Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2af01f4e-d97a-4bb6-a1f3-f36e84ff0ad1"
+      },
+      {
+        "id": "c51223e6-f4fe-4f71-9cfa-c565f3dc0136",
+        "start_time": "2023-09-13T10:13:17.956Z",
+        "end_time": "2023-09-14T05:30:00.280Z",
+        "distance_travelled": 97501,
+        "created_at": "2023-09-14T02:07:25.330Z",
+        "updated_at": "2023-09-13T11:25:06.617Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c342ec5b-4d47-4967-bba0-92054e8f500b"
+      },
+      {
+        "id": "fb4d8803-92bc-4413-8583-03d982ca133f",
+        "start_time": "2023-09-13T07:50:37.516Z",
+        "end_time": "2023-09-14T03:49:07.986Z",
+        "distance_travelled": 91756,
+        "created_at": "2023-09-13T13:24:38.101Z",
+        "updated_at": "2023-09-13T08:18:45.965Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "2af01f4e-d97a-4bb6-a1f3-f36e84ff0ad1"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "800b74e4-bb1c-4c65-9770-acf6ebd907a6",
+        "start_time": "2023-09-13T14:08:49.679Z",
+        "end_time": "2023-09-13T19:49:24.334Z",
+        "created_at": "2023-09-13T08:07:14.310Z",
+        "updated_at": "2023-09-14T04:33:32.360Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "614ccd81-4106-4874-b032-f96075769226"
+      },
+      {
+        "id": "e19b6671-7f48-4c41-b33d-3910b9356256",
+        "start_time": "2023-09-14T03:50:20.842Z",
+        "end_time": "2023-09-13T21:27:46.474Z",
+        "created_at": "2023-09-14T01:12:51.775Z",
+        "updated_at": "2023-09-14T01:53:57.527Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "58f7a102-cd19-4033-b531-cf980114471a"
+      },
+      {
+        "id": "3bc83c54-37a2-49e6-8737-b41982e80102",
+        "start_time": "2023-09-13T12:48:54.826Z",
+        "end_time": "2023-09-13T08:59:16.408Z",
+        "created_at": "2023-09-13T12:21:42.611Z",
+        "updated_at": "2023-09-13T09:49:07.845Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "58f7a102-cd19-4033-b531-cf980114471a"
+      },
+      {
+        "id": "926ac42c-496d-40b1-b96f-dfef3613c040",
+        "start_time": "2023-09-13T18:42:43.040Z",
+        "end_time": "2023-09-13T06:51:48.630Z",
+        "created_at": "2023-09-14T05:05:55.630Z",
+        "updated_at": "2023-09-13T12:31:12.032Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a6607443-d1e6-4c3a-ba58-648b02bf11bb"
+      },
+      {
+        "id": "288fa4e5-a01e-46bf-a2d2-25aa63082be6",
+        "start_time": "2023-09-13T19:37:51.978Z",
+        "end_time": "2023-09-13T12:21:38.523Z",
+        "created_at": "2023-09-13T08:47:55.589Z",
+        "updated_at": "2023-09-13T12:07:00.928Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "58f7a102-cd19-4033-b531-cf980114471a"
+      }
+    ],
+    "performance_assessment": [
+      {
+        "id": "d38c149b-2768-4252-85de-b8609b32a62f",
+        "average_usage": 58127,
+        "peak_usage": 47473,
+        "low_usage": 53751,
+        "total_reservations": 20284,
+        "created_at": "2023-09-13T22:29:59.827Z",
+        "updated_at": "2023-09-13T23:46:26.558Z",
+        "vehicle_id": "c342ec5b-4d47-4967-bba0-92054e8f500b"
+      },
+      {
+        "id": "b5ec7392-4f63-4012-81e7-0847c15f6d4d",
+        "average_usage": 49114,
+        "peak_usage": 78206,
+        "low_usage": 69048,
+        "total_reservations": 21928,
+        "created_at": "2023-09-13T22:17:38.382Z",
+        "updated_at": "2023-09-14T01:38:39.225Z",
+        "vehicle_id": "c342ec5b-4d47-4967-bba0-92054e8f500b"
+      },
+      {
+        "id": "9fbdfcb2-cb53-4536-88a4-f27b0f1ce0a4",
+        "average_usage": 65745,
+        "peak_usage": 78761,
+        "low_usage": 40537,
+        "total_reservations": 66382,
+        "created_at": "2023-09-14T04:38:56.444Z",
+        "updated_at": "2023-09-13T11:05:38.248Z",
+        "vehicle_id": "a6607443-d1e6-4c3a-ba58-648b02bf11bb"
+      },
+      {
+        "id": "cde2991b-4d78-489f-9d17-57001730c74e",
+        "average_usage": 82965,
+        "peak_usage": 83660,
+        "low_usage": 67578,
+        "total_reservations": 81741,
+        "created_at": "2023-09-13T09:56:46.904Z",
+        "updated_at": "2023-09-14T04:15:50.841Z",
+        "vehicle_id": "614ccd81-4106-4874-b032-f96075769226"
+      },
+      {
+        "id": "89c43a51-4cc5-42f4-9def-baa08a5fc602",
+        "average_usage": 53051,
+        "peak_usage": 44860,
+        "low_usage": 545,
+        "total_reservations": 93224,
+        "created_at": "2023-09-13T15:59:01.526Z",
+        "updated_at": "2023-09-13T12:02:50.241Z",
+        "vehicle_id": "58f7a102-cd19-4033-b531-cf980114471a"
+      }
+    ],
+    "payment": [
+      {
+        "id": "2d886433-28d8-434e-9049-88eaba9df255",
+        "created_at": "2023-09-13T06:44:35.944Z",
+        "updated_at": "2023-09-13T10:58:13.105Z",
+        "payment_type": "Credit Card",
+        "payment_status": "Pending",
+        "payment_date": "2023-09-13T23:41:12.262Z",
+        "payment_method": "Visa",
+        "payment_amount": 0.34460175735875964,
+        "payment_confirmation_code": "ABC123",
+        "payment_description": "Product Purchase",
+        "payment_receipt_url": "https://example.com/receipt1",
+        "payment_reference_number": "1234567890"
+      },
+      {
+        "id": "a08330ac-31ac-4d5d-bd88-a51bd55edd33",
+        "created_at": "2023-09-14T03:20:33.869Z",
+        "updated_at": "2023-09-13T20:12:21.395Z",
+        "payment_type": "Debit Card",
+        "payment_status": "Completed",
+        "payment_date": "2023-09-13T09:20:53.968Z",
+        "payment_method": "Mastercard",
+        "payment_amount": 0.9561951565556228,
+        "payment_confirmation_code": "DEF456",
+        "payment_description": "Subscription Renewal",
+        "payment_receipt_url": "https://example.com/receipt2",
+        "payment_reference_number": "0987654321"
+      },
+      {
+        "id": "2c498550-75df-449b-8046-c32bfbf417b1",
+        "created_at": "2023-09-13T09:02:08.997Z",
+        "updated_at": "2023-09-13T22:21:20.555Z",
+        "payment_type": "PayPal",
+        "payment_status": "Failed",
+        "payment_date": "2023-09-13T16:28:30.096Z",
+        "payment_method": "American Express",
+        "payment_amount": 0.7305881527718157,
+        "payment_confirmation_code": "GHI789",
+        "payment_description": "Service Fee",
+        "payment_receipt_url": "https://example.com/receipt3",
+        "payment_reference_number": "5432109876"
+      },
+      {
+        "id": "1d72086a-2870-496b-8272-d7fd9319e288",
+        "created_at": "2023-09-14T02:28:33.127Z",
+        "updated_at": "2023-09-14T02:12:23.263Z",
+        "payment_type": "Apple Pay",
+        "payment_status": "Refunded",
+        "payment_date": "2023-09-14T05:23:09.023Z",
+        "payment_method": "Discover",
+        "payment_amount": 0.9282389737199992,
+        "payment_confirmation_code": "JKL012",
+        "payment_description": "Donation",
+        "payment_receipt_url": "https://example.com/receipt4",
+        "payment_reference_number": "6789054321"
+      },
+      {
+        "id": "0de393e9-53b9-45a8-b763-f83ae3b336ef",
+        "created_at": "2023-09-13T11:16:23.753Z",
+        "updated_at": "2023-09-14T05:00:25.639Z",
+        "payment_type": "Google Pay",
+        "payment_status": "Cancelled",
+        "payment_date": "2023-09-13T07:16:37.278Z",
+        "payment_method": "PayPal",
+        "payment_amount": 0.7479412169195712,
+        "payment_confirmation_code": "MNO345",
+        "payment_description": "Membership Payment",
+        "payment_receipt_url": "https://example.com/receipt5",
+        "payment_reference_number": "2345678901"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3df0a167-7431-42ed-8139-9c1ec8737bbe",
+        "email": "Kadin.Cremin98@gmail.com",
+        "firstName": "Enrico",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2146304",
+        "tenantId": null
+      },
+      {
+        "reference": "5318f194-9af5-43e3-aa14-057e9e55cc6c",
+        "email": "Eunice_Runolfsdottir21@gmail.com",
+        "firstName": "Michele",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38774487",
+        "tenantId": null
+      },
+      {
+        "reference": "c8e11788-2824-4996-8eb0-32a430f1fb5f",
+        "email": "Maymie_Prosacco@hotmail.com",
+        "firstName": "Clifton",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33756090",
+        "tenantId": null
+      },
+      {
+        "reference": "6d8b4a8b-a3b7-40b5-a68f-2f11cd712cfe",
+        "email": "Elsie11@yahoo.com",
+        "firstName": "Ewell",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39336379",
+        "tenantId": null
+      },
+      {
+        "reference": "46a0a5d2-a9c5-40de-847b-4f1a661cbff8",
+        "email": "Meagan60@yahoo.com",
+        "firstName": "Chadd",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/781.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
